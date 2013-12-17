@@ -29,16 +29,10 @@ sudo apt-get install -y openjdk-7-jdk
 sudo apt-get install -y tomcat7 ant
 
 # MySQL
-echo mysql-server mysql-server/root_password password vivo | sudo debconf-set-selections
-echo mysql-server mysql-server/root_password_again password vivo | sudo debconf-set-selections
+echo mysql-server mysql-server/root_password password vagrant | sudo debconf-set-selections
+echo mysql-server mysql-server/root_password_again password vagrant | sudo debconf-set-selections
 sudo apt-get install -y mysql-server
 sudo apt-get install -y mysql-client
-
-#Default .bashrc to home directory
-cp /home/vagrant/provision/.bashrc /home/vagrant/.
-
-#Call VIVO install
-source /home/vagrant/provision/vivo/install.sh
 
 echo Box provisioned.
 

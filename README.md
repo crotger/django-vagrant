@@ -14,12 +14,12 @@ The box will boot and install Django 1.4.2 and dependencies.  This will take sev
 ## Install
 
 ~~~
-$ git clone https://github.com/lawlesst/django-vagrant.git django-vagrant
+$ git clone https://github.com/Brown-University-Library/django-vagrant.git django-vagrant
 $ cd django-vagrant
 $ vagrant up
 ~~~
 
-For subsequent vagrant startups, you can use the --no-provision flag to prevent the VIVO install script from running.  
+For subsequent vagrant startups, you can use the --no-provision flag to prevent the Django install script from running.  
 ~~~
 $ vagrant up --no-provision
 ~~~
