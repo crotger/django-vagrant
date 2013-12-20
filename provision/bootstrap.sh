@@ -16,17 +16,14 @@ sudo cp -f /usr/share/zoneinfo/$area/$zone /etc/localtime
 
 # Basics.
 sudo apt-get install -y git-core mercurial vim screen wget curl raptor-utils unzip
+sudo apt-get install -y tree
 
 # Web server
 sudo apt-get install -y apache2
 
-# Python - optional
+# Python
 sudo apt-get install -y python python-dev python-mysqldb python-lxml python-virtualenv
-sudo pip install virtualenvwrapper
-
-# Java - install openjdk7 first
-sudo apt-get install -y openjdk-7-jdk
-sudo apt-get install -y tomcat7 ant
+sudo apt-get install -y libmysqlclient-dev
 
 # MySQL
 echo mysql-server mysql-server/root_password password vagrant | sudo debconf-set-selections
@@ -34,7 +31,10 @@ echo mysql-server mysql-server/root_password_again password vagrant | sudo debco
 sudo apt-get install -y mysql-server
 sudo apt-get install -y mysql-client
 
-echo Box provisioned.
+#call script to create project structure, virtualenv, and install django app
+source /home/vagrant/provision/createFiles.sh
+
+echo Box provisioned. Now log into vagrant and intialize virtual environment.
 
 exit
 

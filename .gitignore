@@ -1,5 +1,4 @@
 .vagrant
 *~
-work/vivo/*
-work/*
+*.pyc
 !work/.gitignore

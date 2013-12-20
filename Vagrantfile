@@ -8,16 +8,18 @@ Vagrant::Config.run do |config|
 
   # Every Vagrant virtual environment requires a box to build off of.
   config.vm.box = "precise64"
+  #config.vm.box = 'centos5'
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
   config.vm.box_url = "http://files.vagrantup.com/precise64.box"
+  #config.vm.box_url = "https://dl.dropbox.com/u/17738575/CentOS-5.8-x86_64.box"
 
   # Boot with a GUI so you can see the screen. (Default is headless)
   # config.vm.boot_mode = :gui
 
   #Memory 2GBs
-  config.vm.customize ["modifyvm", :id, "--memory", 2048]
+  #config.vm.customize ["modifyvm", :id, "--memory", 2048]
 
   # Assign this VM to a host-only network IP, allowing you to access it
   # via the IP. Host-only networks can talk to the host machine as well as
@@ -41,7 +43,7 @@ Vagrant::Config.run do |config|
   # Share an additional folder to the guest VM. The first argument is
   # an identifier, the second is the path on the guest to mount the
   # folder, and the third is the path on the host to the actual folder.
-  config.vm.share_folder "v-data", "/work", "work"
+  config.vm.share_folder "v-data", "/to_copy", "to_copy"
   config.vm.share_folder "provision", "/home/vagrant/provision", "provision"
 
   config.vm.provision :shell, :path => "provision/bootstrap.sh"

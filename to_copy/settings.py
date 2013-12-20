@@ -1,0 +1,1 @@
+from dj_projects_local_settings.settings_PROJECT import *
