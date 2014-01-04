@@ -3,6 +3,11 @@
 #Only run this file WITHIN THE VIRTUAL ENVIRONMENT
 #Otherwise django will be installed in the wrong place!
 
+#This script installs Django and the other requirements into the virtual environment.
+#It also creates the mysql database, starts the django project
+#and replaces the default settings.py file with one that points to the settings of the
+#'super project'
+
 #install Django
 sudo pip install Django==1.4.2
 
@@ -36,4 +41,5 @@ mysql -uroot -pvagrant -e "CREATE DATABASE IF NOT EXISTS dj_projects DEFAULT CHA
 #mysql -uroot -pvagrant dj_projects < somedump_TIMESTAMP.sql
 
 #clone repo
-#git clone ACTUAL_URL_ONCE_PROJECT_IS_LIVE
+#cd projects
+#sudo git clone ACTUAL_URL_ONCE_PROJECT_IS_PUBLIC usep_app

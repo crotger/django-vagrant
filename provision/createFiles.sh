@@ -1,10 +1,7 @@
 #!/bin/bash
 
 #This script creates the file structure necessary to support the django 'super project'
-#architecture.  This all happens in a python virtual environment, which is created here. 
-#The script also creates the mysql database and starts the django project
-#and replaces the default settings.py file with one that points to the settings of the
-#'super project'
+#architecture.  It also creates the python virtual environment where the django project will be created. 
 
 #Files/Directories to be created in VirtualEnv inside Vagrant Box for working django instance
 
@@ -19,7 +16,8 @@ cd LibraryEnvironment
 
 #create log file
 mkdir logs
-touch logs/projects_usep_logs.txt
+touch logs/projects_usep_log.txt
+sudo chmod 777 /usr/local/LibraryEnvironment/logs/projects_usep_log.txt
 
 #create local settings folders as python packages
 mkdir project_local_settings
