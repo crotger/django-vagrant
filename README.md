@@ -9,6 +9,7 @@ The install scripts are heavily commented.  You can copy all lines of code below
 ##Still Needs
 1. usep_app bitbucket repository to be made public
 2. dump of dj_projects database currently on worf
+  - until this is done, any part of the website that relies on the database will not display (including the main collections page)
 3. to be made compliant with a Centos5 box
 
 ##When Done the following will be true
@@ -33,33 +34,35 @@ For subsequent vagrant startups, you can use the --no-provision flag to prevent 
 
 ####2. Create the virtual environment within the Vagrant Box
 
-> vagrant ssh 
+> vagrant ssh
+
 > source /usr/local/envs/env_projects/bin/activate
 
 If this works your prompt should be [env-prj].  Now run the script to install django and the create the django 'super project'.
 > source provision/virtual.sh
 
-At this point if you run (you should be in /usr/local/LibraryEnvironment)
+At this point if you run
 > tree
 
  You should get the following output:
- .
-|-- logs
-|   `-- projects_usep_logs.txt
-|-- project_local_settings
-|   |-- dj_projects_local_settings
-|   |   |-- __init__.py
-|   |   |-- settings_PROJECT.py
-|   |   `-- usep_app_settings.py
-|   `-- __init__.py
-`-- projects
-    |-- manage.py
-    |-- projects
-    |   |-- __init__.py
-    |   |-- settings.py
-    |   |-- urls.py
-    |   `-- wsgi.py
-    `-- requirements.txt
+(assuming you are in /usr/local/LibraryEnvironment)
+
+- logs
+   - projects_usep_logs.txt
+- project_local_settings
+   - dj_projects_local_settings
+      - __init__.py
+      - settings_PROJECT.py
+      - usep_app_settings.py
+   - __init__.py
+- projects
+    - manage.py
+    - projects
+       - __init__.py
+       - settings.py
+       - urls.py
+       - wsgi.py
+    - requirements.txt
 
 5 directories, 11 files
 
@@ -76,12 +79,14 @@ Everything should now be in place.
 ##Using the code
 To view the project, make sure you are in /usr/local/LibraryEnvironment/projects and inside the virtual environment.
 
-You'll have to specify the path to the 'super project' settings when you run manage.py
-> PYTHONPATH=/usr/local/LibraryEnvironment/project_local_settings/ python manage.py runserver
+You'll have to specify the path to the 'super project' settings when you run manage.py AND bind the server to an external IP
+> PYTHONPATH=/usr/local/LibraryEnvironment/project_local_settings/ python manage.py runserver 0.0.0.0:8000
 
-Open a browser window back on your home computer and point it to localhost:5678/projects/usep/collections
+Open a browser window back on your home computer and point it to a specific collection localhost:5678/projects/usep/collections/CA.Berk.UC.HMA/
 
-You should be looking at the collections page for the U.S. Epigraphy Website.
+You should be looking at the collections page for the University of California at Berkeley on the U.S. Epigraphy Website.
+
+You cannot view the collections page itself without the underlying database.
 
 
 ## Notes
