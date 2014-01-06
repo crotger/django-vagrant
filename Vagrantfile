@@ -41,6 +41,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # argument is a set of non-required options.
   config.vm.synced_folder "to_copy", "/to_copy"
   config.vm.synced_folder "provision", "/home/vagrant/provision"
+  config.vm.synced_folder "LibraryEnvironment", "/home/vagrant/LibraryEnvironment"
 
   config.vm.provision :shell, :path => "provision/bootstrap.sh"
 

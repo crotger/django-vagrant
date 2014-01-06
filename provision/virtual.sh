@@ -14,7 +14,7 @@ sudo pip install Django==1.4.2
 #install dependencies for lxml -- loaded later from requirements.txt
 sudo apt-get -y install libxml2-dev libxslt-dev
 
-LOCAL=/usr/local
+LOCAL=/home/vagrant
 
 #cd into the directory where the django project will live.
 cd $LOCAL/LibraryEnvironment

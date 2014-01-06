@@ -86,13 +86,13 @@ ROOT_URLCONF = 'projects.urls'
 
 TEMPLATE_DIRS = (
     ## project
-    #'/usr/local/LibraryEnvironment/projects/projects/templates_project',
+    #'/home/vagrant/LibraryEnvironment/projects/projects/templates_project',
     ## rome_app
-    #'/usr/local/LibraryEnvironment/projects/rome_app/',
+    #'/home/vagrant/LibraryEnvironment/projects/rome_app/',
     ## software_app
-    #'/usr/local/LibraryEnvironment/projects/software_app/',
+    #'/home/vagrant/LibraryEnvironment/projects/software_app/',
     ## usep
-    '/usr/local/LibraryEnvironment/projects/usep_app/',
+    '/home/vagrant/LibraryEnvironment/projects/usep_app/',
 )
 
 INSTALLED_APPS = (
@@ -158,7 +158,7 @@ LOGGING = {
     'usep_app_logfile': {
       'level':'DEBUG',
       'class':'logging.handlers.RotatingFileHandler',
-      'filename': '/usr/local/LibraryEnvironment/logs/projects_usep_log.txt',
+      'filename': '/home/vagrant/LibraryEnvironment/logs/projects_usep_log.log',
       # 'maxBytes': 1000000,
       'maxBytes': '16777216', # 16megabytes
       'backupCount': 0,

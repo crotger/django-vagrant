@@ -1,23 +1,22 @@
 #!/bin/bash
 
+#This script is called by bootstrap.sh
+
 #This script creates the file structure necessary to support the django 'super project'
 #architecture.  It also creates the python virtual environment where the django project will be created. 
 
 #Files/Directories to be created in VirtualEnv inside Vagrant Box for working django instance
 
-#most of the directories created will be under /user/local so it is being given a variable name
-LOCAL=/usr/local
+#most of the directories created will be under /home/vagrant so it is being given a variable name
+LOCAL=/home/vagrant
 
-cd $LOCAL
-
-#Create container folder, you will stay in this folder for the rest of the shell script
-mkdir LibraryEnvironment
-cd LibraryEnvironment
+#cd into the synced folder where you will create the django 'super project'
+cd $LOCAL/LibraryEnvironment
 
 #create log file
 mkdir logs
-touch logs/projects_usep_log.txt
-sudo chmod 777 /usr/local/LibraryEnvironment/logs/projects_usep_log.txt
+touch logs/projects_usep_log.log
+sudo chmod 777 /home/vagrant/LibraryEnvironment/logs/projects_usep_log.log
 
 #create local settings folders as python packages
 mkdir project_local_settings
@@ -30,7 +29,7 @@ cp /to_copy/settings_PROJECT.py project_local_settings/dj_projects_local_setting
 cp /to_copy/usep_app_settings.py project_local_settings/dj_projects_local_settings/
 
 #Now create the virtual environment.
-#It will live under /usr/local
+#It will live under /home/vagrant
 
 cd $LOCAL
 mkdir envs
