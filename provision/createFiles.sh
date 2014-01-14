@@ -28,10 +28,11 @@ touch project_local_settings/dj_projects_local_settings/__init__.py
 cp /to_copy/settings_PROJECT.py project_local_settings/dj_projects_local_settings/
 cp /to_copy/usep_app_settings.py project_local_settings/dj_projects_local_settings/
 
-#Now create the virtual environment.
-#It will live under /home/vagrant
+#Now create the virtual environment, called env_projects
+#It will live under /home/vagrant and use Python 2.6
+#When you activate the virtualenv your prompt will read [env_prj]
 
 cd $LOCAL
 mkdir envs
 cd envs
-virtualenv --prompt=[env_prj] $LOCAL/envs/env_projects
+virtualenv -p python2.6 --prompt=[env_prj] $LOCAL/envs/env_projects
