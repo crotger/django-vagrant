@@ -10,11 +10,11 @@ The install scripts are heavily commented.  You can copy all lines of code below
 1. usep_app bitbucket repository to be made public
 2. dump of dj_projects database currently on worf
   - until this is done, any part of the website that relies on the database will not display (including the main collections page)
-3. to be made compliant with a Centos5 box and running Python2.6 (currently Ubuntu and Python2.7)
+3. to be made compliant with a Centos5 box (currently Ubuntu)
 
-##When Done the following will be true
+##What this does
 
-[Vagrant](http://www.vagrantup.com/) configuration and install scripts for running The Brown University Library's install of [Django](http://djangoproject.org) for the [U.S. Epigraphy Project](http://library.brown.edu/projects/usep/collections/) on an Ubuntu 64 Precise image.
+[Vagrant](http://www.vagrantup.com/) configuration and install scripts for running The Brown University Library's install of [Django](http://djangoproject.org) for the [U.S. Epigraphy Project](http://library.brown.edu/projects/usep/collections/) on an Ubuntu 64 Precise image. It will also create a virtual environment that runs Python 2.6 (to match the Library's server configuration).
 
 The Django web application will run on http://localhost:5678/usep/ the local source will be /home/vagrant/LibraryEnvironment/projects/
 
