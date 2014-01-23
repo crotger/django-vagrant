@@ -94,14 +94,21 @@ To view the project, make sure you are in /home/vagrant/LibraryEnvironment/proje
 This will be automated, but for now run these commands...
 
 > vagrant$ python ./manage.py syncdb --noinput
+
 > vagrant$ python ./manage.py loaddata usep_app /to_copy/usep_aboutpage.json
+
 > vagrant$ python ./manage.py loaddata usep_app /to_copy/usep_contactspage.json
+
 > vagrant$ python ./manage.py loaddata usep_app /to_copy/usep_flatcollection.json
+
 > vagrant$ python ./manage.py loaddata usep_app /to_copy/usep_linkspage.json
+
 > vagrant$ python ./manage.py loaddata usep_app /to_copy/usep_publicationspage.json
+
 > vagrant$ python ./manage.py loaddata usep_app /to_copy/usep_textspage.json
 
 Then, to start the django built-in dev-server (binding the server to an external IP)...
+
 > vagrant$ python ./manage.py runserver 0.0.0.0:8000
 
 Open a browser window back on your home computer and point it to a specific collection localhost:5678/usep/collections/CA.Berk.UC.HMA/
