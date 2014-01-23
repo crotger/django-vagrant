@@ -1,0 +1,11 @@
+[
+  {
+    "pk": 1, 
+    "model": "usep_app.textspage", 
+    "fields": {
+      "content": "Information here.", 
+      "title_content": "View Texts", 
+      "title_page": "US Epigraphy | Texts"
+    }
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "pk": 1, 
+    "model": "usep_app.publicationspage", 
+    "fields": {
+      "content": "Search by publication coming.", 
+      "title_content": "Inscriptions by Publication", 
+      "title_page": "US Epigraphy | Publications"
+    }
+  }
+]

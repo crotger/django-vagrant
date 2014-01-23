@@ -1,0 +1,11 @@
+[
+  {
+    "pk": 1, 
+    "model": "usep_app.contactspage", 
+    "fields": {
+      "content": "<div id=\"listofstates\"></div>\r\n  \r\n  <div id=\"content\">\r\n    <p><strong>Project Director:</strong> John Bodel, <a href=\"mailto:john_bodel@brown.edu\">john_bodel@brown.edu</a></p>\r\n    <p>If you have any problems using the site, would like to learn more about the project, or would like to contribute to the project, please contact the project director at the address listed above.</p>\r\n    <p>The mailing address for US Epigraphy is:</p>\r\n<p>U.S. Epigraphy Project<br/>\r\nDepartment of Classics, Brown University<br/>\r\nBox 1856<br/>\r\n48 College St<br/>\r\nProvidence, RI 02912 </p>\r\n  </div>", 
+      "title_content": "Contact Information", 
+      "title_page": "US Epigraphy | Contacts"
+    }
+  }
+]
