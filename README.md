@@ -34,9 +34,10 @@ These are both open source software packages.  You don't need to worry about usi
 Currently this is broken into 3 parts because 1) I can't figure out how to install packages into a virtual environment from a bash script and 2) the usep_app code is still in a private repository.  Hopefully someone will be able to knit them into one seamless command, but until then:
 
 ####1. Create and provision the Vagrant Box
-> laptop$ git clone https://github.com/Brown-University-Library/django-vagrant.git django-vagrant
 
-> laptop$ cd django-vagrant
+> laptop$ git clone https://github.com/Brown-University-Library/django-vagrant.git ./django-vagrant
+
+> laptop$ cd ./django-vagrant
 
 > laptop$ vagrant up
 
@@ -51,9 +52,11 @@ For subsequent vagrant startups, you can use the --no-provision flag to prevent 
 > vagrant$ source /home/vagrant/envs/env_projects/bin/activate
 
 If this works your prompt should be [env-prj].  Now run the script to install django and the create the django 'super project'.  This can be your second coffee break.
-> vagrant$ source provision/virtual.sh
+
+> vagrant$ source ./provision/virtual.sh
 
 At this point if you run
+
 > vagrant$ tree
 
  You should get the following output:
