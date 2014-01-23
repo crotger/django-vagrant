@@ -37,9 +37,13 @@ sudo pip install -r projects/requirements.txt
 #matches the settings_PROJECT.py file copied from the shared folder
 mysql -uroot -pvagrant -e "CREATE DATABASE IF NOT EXISTS dj_projects DEFAULT CHARACTER SET utf8;"
 
-#load database with dump copied from shared folder
-#mysql -uroot -pvagrant dj_projects < somedump_TIMESTAMP.sql
+#create database tables
+python ./manage.py syncdb --noinput
 
-#clone repo
-#cd projects
-#sudo git clone ACTUAL_URL_ONCE_PROJECT_IS_PUBLIC usep_app
+#populate tables required for links to work
+python ./manage.py loaddata usep_app /to_copy/usep_aboutpage.json
+python ./manage.py loaddata usep_app /to_copy/usep_contactspage.json
+python ./manage.py loaddata usep_app /to_copy/usep_flatcollection.json
+python ./manage.py loaddata usep_app /to_copy/usep_linkspage.json
+python ./manage.py loaddata usep_app /to_copy/usep_publicationspage.json
+python ./manage.py loaddata usep_app /to_copy/usep_textspage.json
