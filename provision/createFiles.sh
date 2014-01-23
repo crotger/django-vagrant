@@ -42,5 +42,5 @@ cp /to_copy/usep.pth /home/vagrant/envs/env_projects/lib/python2.6/site-packages
 
 #get app from bitbucket
 #storing it in to_copy for now because there is not yet a 'projects' dir
-cd $LOCAL/to_copy/
+cd /to_copy/
 git clone https://bitbucket.org/bul/projects-usep_app ./usep_app
