@@ -19,8 +19,11 @@ LOCAL=/home/vagrant
 #cd into the directory where the django project will live.
 cd $LOCAL/LibraryEnvironment
 
-#create the django project -- imaginatively named 'projects'
+#create the django project -- imaginatively named 'projects' -- hey, JB, I saw that! -BJD  :)
 sudo django-admin.py startproject projects
+
+#move in usep app
+sudo mv /to_copy/usep_app $LOCAL/LibraryEnvironment/projects/usep_app
 
 #replace django default settings.py with 1 line file that calls settings from 'super project'
 sudo cp /to_copy/settings.py projects/projects/

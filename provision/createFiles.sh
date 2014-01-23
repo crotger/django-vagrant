@@ -41,5 +41,6 @@ virtualenv -p python2.6 --prompt=[env_prj] $LOCAL/envs/env_projects
 cp /to_copy/usep.pth /home/vagrant/envs/env_projects/lib/python2.6/site-packages/usep.pth
 
 #get app from bitbucket
-cd $LOCAL/LibraryEnvironment/projects/
+#storing it in to_copy for now because there is not yet a 'projects' dir
+cd $LOCAL/to_copy/
 git clone https://bitbucket.org/bul/projects-usep_app ./usep_app
