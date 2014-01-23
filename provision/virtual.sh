@@ -38,6 +38,7 @@ sudo pip install -r projects/requirements.txt
 mysql -uroot -pvagrant -e "CREATE DATABASE IF NOT EXISTS dj_projects DEFAULT CHARACTER SET utf8;"
 
 #create database tables
+cd $LOCAL/LibraryEnvironment/projects
 python ./manage.py syncdb --noinput
 
 #populate tables required for links to work
