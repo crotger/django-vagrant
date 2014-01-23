@@ -3,7 +3,7 @@
 #This script is called by bootstrap.sh
 
 #This script creates the file structure necessary to support the django 'super project'
-#architecture.  It also creates the python virtual environment where the django project will be created. 
+#architecture.  It also creates the python virtual environment where the django project will be created.
 
 #Files/Directories to be created in VirtualEnv inside Vagrant Box for working django instance
 
@@ -36,3 +36,6 @@ cd $LOCAL
 mkdir envs
 cd envs
 virtualenv -p python2.6 --prompt=[env_prj] $LOCAL/envs/env_projects
+
+#copy usep.pth to site-packages to automatically get settings on PYTHONPATH
+cp /to_copy/usep.pth /home/vagrant/envs/env_projects/lib/python2.6/site-packages/usep.pth
