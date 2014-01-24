@@ -45,7 +45,20 @@ For subsequent vagrant startups, you can use the --no-provision flag to prevent 
 
 > laptop$ vagrant up --no-provision
 
-####2. Create the virtual environment within the Vagrant Box
+####2. Clone specific repository for USEP.
+This will be done in the original provisioning as soon as the repository is made public.  Until then...
+
+> laptop$ cd ./to_copy
+
+> laptop$ git clone https://bitbucket.org/bul/projects-usep_app.git ./usep_app
+
+Use your own password.
+
+The usep_app will be moved, in the next script, to its proper destination (which doesn't exist yet at this point).
+
+####3. Create the virtual environment within the Vagrant Box
+
+> laptop$ cd ..
 
 > laptop$ vagrant ssh
 
@@ -81,36 +94,13 @@ At this point if you run
 
 5 directories, 11 files
 
-####3. Clone specific repository for USEP.
-This will be done in the original provisioning as soon as the repository is made public.  Until then go to https://bitbucket.org/bul/projects-usep_app
-
-> vagrant$ cd /home/vagrant/LibraryEnvironment/projects/
-
-> vagrant$ sudo git clone PRIVATE_REPO_URL usep_app
-
-Use your own password.  Get a 3rd cup of coffee.
+  Get a 3rd cup of coffee.
 Everything should now be in place.
 
 ##Using the code
 To view the project, make sure you are in /home/vagrant/LibraryEnvironment/projects and inside the virtual environment.
 
-This will be automated, but for now run these commands...
-
-> vagrant$ python ./manage.py syncdb --noinput
-
-> vagrant$ python ./manage.py loaddata usep_app /to_copy/usep_aboutpage.json
-
-> vagrant$ python ./manage.py loaddata usep_app /to_copy/usep_contactspage.json
-
-> vagrant$ python ./manage.py loaddata usep_app /to_copy/usep_flatcollection.json
-
-> vagrant$ python ./manage.py loaddata usep_app /to_copy/usep_linkspage.json
-
-> vagrant$ python ./manage.py loaddata usep_app /to_copy/usep_publicationspage.json
-
-> vagrant$ python ./manage.py loaddata usep_app /to_copy/usep_textspage.json
-
-Then, to start the django built-in dev-server (binding the server to an external IP)...
+To start the django built-in dev-server (binding the server to an external IP)...
 
 > vagrant$ python ./manage.py runserver 0.0.0.0:8000
 

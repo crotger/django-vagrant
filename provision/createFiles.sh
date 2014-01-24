@@ -42,7 +42,10 @@ cp /to_copy/usep.pth /home/vagrant/envs/env_projects/lib/python2.6/site-packages
 
 #get app from bitbucket
 #storing it in to_copy for now because there is not yet a 'projects' dir
-cd /to_copy/
-export APP_URL="https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/bul/projects-usep_app.git"
-echo "app url is: $APP_URL"
-git clone $APP_URL ./usep_app
+#grrr can't do this yet; will make this public eventually and then it will work
+    # cd /to_copy/
+    # export APP_URL="https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/bul/projects-usep_app.git"
+    # echo "app url is: $APP_URL"
+    # git clone $APP_URL ./usep_app
+# cd /to_copy/
+# git clone https://bitbucket.org/bul/projects-usep_app.git ./usep_app
