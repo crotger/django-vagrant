@@ -8,9 +8,7 @@ The install scripts are heavily commented.  You can copy all lines of code below
 
 ##Still Needs
 1. usep_app bitbucket repository to be made public
-2. dump of dj_projects database currently on worf
-  - until this is done, any part of the website that relies on the database will not display (including the main collections page)
-3. to be made compliant with a Centos5 box (currently Ubuntu)
+2. to be made compliant with a Centos5 box (currently Ubuntu)
 
 ##What this does
 
