@@ -99,7 +99,6 @@ At this point if you run
     10 directories, 136 files
     5 directories, 11 files
 
-  Get a 3rd cup of coffee.
 Everything should now be in place.
 
 ##Using the code
