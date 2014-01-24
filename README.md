@@ -18,7 +18,7 @@ The install scripts are heavily commented.  You can copy all lines of code below
 
 The Django web application will run on http://localhost:5678/usep/ the local source will be /home/vagrant/LibraryEnvironment/projects/
 
-All files will be installed in a synced folder called LibraryEnvironment (a blank copy ships with this repository) so you can access them with the editor of your chose on your host machine.  Just make sure you don't check the additional files back into the repostory!
+All files will be installed in a synced folder called LibraryEnvironment (a blank copy ships with this repository) so you can access them with the editor of your choice on your host machine.  Just make sure you don't check the additional files back into the repostory!
 
 The box will boot and install Django 1.4.2 and dependencies.  This will take several minutes for the initial install.  I suggest using an ethernet connection and getting a cup of coffee.
 
