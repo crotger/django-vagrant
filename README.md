@@ -7,8 +7,7 @@ This project is a fork from [lawlesst/vivo-vagrant](https://github.com/lawlesst/
 The install scripts are heavily commented.  You can copy all lines of code below directly into the command prompt.  If a change of directory is required in between steps, it will be specified.
 
 ##Still Needs
-1. usep_app bitbucket repository to be made public
-2. to be made compliant with a Centos5 box (currently Ubuntu)
+- to be made compliant with a Centos5 box (currently Ubuntu)
 
 ##What this does
 
@@ -29,7 +28,7 @@ These are both open source software packages.  You don't need to worry about usi
 
 ## Install
 
-Currently this is broken into 3 parts because 1) I can't figure out how to install packages into a virtual environment from a bash script and 2) the usep_app code is still in a private repository.  Hopefully someone will be able to knit them into one seamless command, but until then:
+Currently this is broken into 2 parts because 1) I can't figure out how to install packages into a virtual environment from a bash script.  Hopefully someone will be able to knit them into one seamless command, but until then:
 
 ####1. Create and provision the Vagrant Box
 
@@ -41,32 +40,29 @@ For subsequent vagrant startups, you can use the --no-provision flag to prevent 
 
     laptop$ vagrant up --no-provision
 
-####2. Clone specific repository for USEP.
-This will be done in the original provisioning as soon as the repository is made public.  Until then...
+Note, this step pulls the usep_app from github into a temporary location. It will be moved, in the next script, to its proper destination (which doesn't exist yet at this point).
 
-    laptop$ cd ./to_copy
-    laptop$ git clone https://bitbucket.org/bul/projects-usep_app.git ./usep_app
+####2. Create the virtual environment within the Vagrant Box
 
-Use your own username & password.
-
-The usep_app will be moved, in the next script, to its proper destination (which doesn't exist yet at this point).
-
-####3. Create the virtual environment within the Vagrant Box
-
-    laptop$ cd ..
     laptop$ vagrant ssh
-    vagrant$ source /home/vagrant/envs/env_projects/bin/activate
+    vagrant@precise64:~$ pwd
+    /home/vagrant
+    vagrant$ source ./envs/env_projects/bin/activate
 
 If this works your prompt should be [env-prj].  Now run the script to install django and the create the django 'super project'.  This can be your second coffee break.
 
     [env-prj]vagrant$ source ./provision/virtual.sh
+
+At this point you should be in a 'projects' directory:
+
+    [env_prj]vagrant:~/LibraryEnvironment/projects$ pwd
+    /home/vagrant/LibraryEnvironment/projects
 
 At this point if you run
 
     [env-prj]vagrant$ tree
 
  You should get the following output (only two levels shown):
-(assuming you are in /home/vagrant/LibraryEnvironment/projects)
 
     .
     |-- manage.py
@@ -106,7 +102,16 @@ To start the django built-in dev-server (binding the server to an external IP)..
 
     [env-prj]vagrant$ python ./manage.py runserver 0.0.0.0:8000
 
-Open a browser window back on your home computer and point it to a specific collection localhost:5678/usep/collections/CA.Berk.UC.HMA/
+The output you'll see is:
+
+    Validating models...
+
+    0 errors found
+    Django version 1.4.2, using settings 'projects.settings'
+    Development server is running at http://0.0.0.0:8000/
+    Quit the server with CONTROL-C.
+
+Open a browser window back on your home computer and point it to a specific collection -- http://127.0.0.1:5678/usep/collections/CA.Berk.UC.HMA/
 
 You should be looking at the collections page for the University of California at Berkeley on the U.S. Epigraphy Website and can view individual inscriptions.  You can change collections if you have the collection ID and can type it into the URL.  But without the database you cannot use the site navigation, because all the static pages are in the database.  You also cannot access the search page, but that is becuase the kochief instance is a seperate django app.
 
