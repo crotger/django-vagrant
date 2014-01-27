@@ -40,12 +40,7 @@ virtualenv -p python2.6 --prompt=[env_prj] $LOCAL/envs/env_projects
 #copy usep.pth to site-packages to automatically get settings on PYTHONPATH
 cp /to_copy/usep.pth /home/vagrant/envs/env_projects/lib/python2.6/site-packages/usep.pth
 
-#get app from bitbucket
+#get app from github
 #storing it in to_copy for now because there is not yet a 'projects' dir
-#grrr can't do this yet; will make this public eventually and then it will work
-    # cd /to_copy/
-    # export APP_URL="https://$BB_USERNAME:$BB_PASSWORD@bitbucket.org/bul/projects-usep_app.git"
-    # echo "app url is: $APP_URL"
-    # git clone $APP_URL ./usep_app
-# cd /to_copy/
-# git clone https://bitbucket.org/bul/projects-usep_app.git ./usep_app
+cd /to_copy/
+git clone https://github.com/Brown-University-Library/projects-usep-app.git ./usep_app
