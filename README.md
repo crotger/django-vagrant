@@ -32,7 +32,7 @@ Currently this is broken into 2 parts because 1) I can't figure out how to insta
 
 ####1. Create and provision the Vagrant Box
 
-    laptop$ git clone https://github.com/Brown-University-Library/django-vagrant.git ./django-vagrant
+    laptop$ git clone https://github.com/birkin/django-vagrant.git ./django-vagrant
     laptop$ cd ./django-vagrant
     laptop$ vagrant up
 
