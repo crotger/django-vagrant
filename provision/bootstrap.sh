@@ -11,19 +11,19 @@ sudo apt-get update -y
 
 
 
-# Install Python 2.6 for use in Virtual Environment
-#This repository can be found here https://launchpad.net/~fkrull/+archive/deadsnakes
-sudo add-apt-repository -y ppa:fkrull/deadsnakes
-sudo apt-get update -y
-sudo apt-get install -y python2.6 python2.6-dev
+# # Install Python 2.6 for use in Virtual Environment
+# #This repository can be found here https://launchpad.net/~fkrull/+archive/deadsnakes
+# sudo add-apt-repository -y ppa:fkrull/deadsnakes
+# sudo apt-get update -y
+# sudo apt-get install -y python2.6 python2.6-dev
 
 
 
-# Install  virtualenv
-mkdir /home/vagrant/LibraryEnvironment/envs
-virtualenv -p python2.6 --prompt=[env_prj] /home/vagrant/LibraryEnvironment/envs/env_projects
-source /home/vagrant/LibraryEnvironment/envs/env_projects/bin/activate
-pip freeze
+# # Install  virtualenv
+# mkdir /home/vagrant/LibraryEnvironment/envs
+# virtualenv -p python2.6 --prompt=[env_prj] /home/vagrant/LibraryEnvironment/envs/env_projects
+# source /home/vagrant/LibraryEnvironment/envs/env_projects/bin/activate
+# pip freeze
 
 
 
@@ -48,11 +48,21 @@ sudo apt-get install -y libmysqlclient-dev
 sudo apt-get install -y python-software-properties #required for add-apt-repository command below
 sudo apt-get update -y
 
-# # Install Python 2.6 for use in Virtual Environment
-# #This repository can be found here https://launchpad.net/~fkrull/+archive/deadsnakes
-# sudo add-apt-repository -y ppa:fkrull/deadsnakes
-# sudo apt-get update -y
-# sudo apt-get install -y python2.6 python2.6-dev
+# Install Python 2.6 for use in Virtual Environment
+#This repository can be found here https://launchpad.net/~fkrull/+archive/deadsnakes
+sudo add-apt-repository -y ppa:fkrull/deadsnakes
+sudo apt-get update -y
+sudo apt-get install -y python2.6 python2.6-dev
+
+
+
+# Install  virtualenv
+mkdir /home/vagrant/LibraryEnvironment/envs
+virtualenv -p python2.6 --prompt=[env_prj] /home/vagrant/LibraryEnvironment/envs/env_projects
+source /home/vagrant/LibraryEnvironment/envs/env_projects/bin/activate
+pip freeze
+
+
 
 # MySQL
 echo mysql-server mysql-server/root_password password vagrant | sudo debconf-set-selections
