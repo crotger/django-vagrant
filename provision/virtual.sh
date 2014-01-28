@@ -9,10 +9,10 @@
 #'super project'
 
 #install Django
-sudo pip install Django==1.4.2
+pip install Django==1.4.2
 
 #install dependencies for lxml -- loaded later from requirements.txt
-sudo apt-get -y install libxml2-dev libxslt-dev
+apt-get -y install libxml2-dev libxslt-dev
 
 LOCAL=/home/vagrant
 
@@ -20,19 +20,19 @@ LOCAL=/home/vagrant
 cd $LOCAL/LibraryEnvironment
 
 #create the django project -- imaginatively named 'projects' -- hey, JB, I saw that! -BJD  :)
-sudo django-admin.py startproject projects
+django-admin.py startproject projects
 
 #move in usep app
-sudo mv /to_copy/usep_app $LOCAL/LibraryEnvironment/projects/usep_app
+mv /to_copy/usep_app $LOCAL/LibraryEnvironment/projects/usep_app
 
 #replace django default settings.py with 1 line file that calls settings from 'super project'
-sudo cp /to_copy/settings.py projects/projects/
-sudo cp /to_copy/urls.py projects/projects/
-sudo cp /to_copy/wsgi.py projects/projects/
+cp /to_copy/settings.py projects/projects/
+cp /to_copy/urls.py projects/projects/
+cp /to_copy/wsgi.py projects/projects/
 
 #add requirements.txt file to root of django project and install rest of the environment
-sudo cp /to_copy/requirements.txt projects/
-sudo pip install -r projects/requirements.txt
+cp /to_copy/requirements.txt projects/
+pip install -r projects/requirements.txt
 
 #drop database if desired
 #mysql -uroot -pvagrant -e "DROP DATABASE IF EXISTS dj_projects;"
@@ -40,9 +40,14 @@ sudo pip install -r projects/requirements.txt
 #matches the settings_PROJECT.py file copied from the shared folder
 mysql -uroot -pvagrant -e "CREATE DATABASE IF NOT EXISTS dj_projects DEFAULT CHARACTER SET utf8;"
 
+
+
 #create database tables
 cd $LOCAL/LibraryEnvironment/projects
 python ./manage.py syncdb --noinput
+# /home/vagrant/LibraryEnvironment/envs/env_projects/bin/python2.6 ./manage.py syncdb --noinput
+
+
 
 #populate tables required for links to work
 python ./manage.py loaddata usep_app /to_copy/usep_aboutpage.json
