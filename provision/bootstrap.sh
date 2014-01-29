@@ -2,12 +2,12 @@
 
 # This script is called directly from the Vagrantfile
 
+## general config ##
+
 #vagrant config?
 export DEBIAN_FRONTEND=noninteractive
 set -e # Exit script immediately on first error.
 set -x # Print commands and their arguments as they are executed.
-
-## general config ##
 
 #update package manager resources
 sudo apt-get update -y
@@ -18,6 +18,10 @@ zone="New_York"
 sudo echo "$area/$zone" > /tmp/timezone
 sudo cp -f /tmp/timezone /etc/timezone
 sudo cp -f /usr/share/zoneinfo/$area/$zone /etc/localtime
+
+## end general config ##
+
+## main server installs ##
 
 #basics (bjd- needed?)
 sudo apt-get install -y git-core mercurial vim screen wget curl raptor-utils unzip
@@ -48,7 +52,7 @@ sudo apt-get install -y mysql-client
 #lxml dependencies -- loaded later from requirements.txt
 apt-get -y install libxml2-dev libxslt-dev
 
-## end general config ##
+## main server installs ##
 
 ## virtualenv work ##
 
