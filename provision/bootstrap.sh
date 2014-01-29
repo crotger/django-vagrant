@@ -52,7 +52,7 @@ sudo apt-get install -y mysql-client
 #lxml dependencies -- loaded later from requirements.txt
 apt-get -y install libxml2-dev libxslt-dev
 
-## main server installs ##
+## end main server installs ##
 
 ## virtualenv work ##
 
