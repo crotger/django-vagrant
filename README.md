@@ -41,6 +41,8 @@ These are both open source software packages.  You don't need to worry about usi
     laptop$ cd ./django-vagrant
     laptop$ vagrant up
 
+Note: after running 'vagrant up', you'll see lots of text scrolling by. At one point the install may _seem_ hung up on at a line: "pip install -r /to_copy/requirements.txt" -- just be patient. That file runs a bunch of installs, and one of them, for django, sometimes takes a surprisingly long time to show output. Also, some of the output may look like error messages; don't worry, this is normal.
+
 For subsequent vagrant startups, you can use the --no-provision flag to prevent the Django install script from running.
 
     laptop$ vagrant up --no-provision

@@ -58,7 +58,7 @@ virtualenv -p python2.6 --prompt=[env_prj] /home/vagrant/LibraryEnvironment/envs
 source /home/vagrant/LibraryEnvironment/envs/env_projects/bin/activate
 
 #install necessary python packages
-pip install -r /home/vagrant/to_copy/requirements.txt
+pip install -r /to_copy/requirements.txt
 
 #copy usep.pth to env_projects->site-packages to automatically get settings on the env_projects PYTHONPATH
 cp /to_copy/usep.pth /home/vagrant/LibraryEnvironment/envs/env_projects/lib/python2.6/site-packages/usep.pth
@@ -80,8 +80,8 @@ mkdir /home/vagrant/LibraryEnvironment/project_local_settings/dj_projects_local_
 touch /home/vagrant/LibraryEnvironment/project_local_settings/dj_projects_local_settings/__init__.py
 
 #set up 'real' settings files
-cp /home/vagrant/to_copy/settings_PROJECT.py /home/vagrant/LibraryEnvironment/project_local_settings/dj_projects_local_settings/settings_PROJECT.py
-cp /home/vagrant/to_copy/usep_app_settings.py /home/vagrant/LibraryEnvironment/project_local_settings/dj_projects_local_settings/usep_app_settings.py
+cp /to_copy/settings_PROJECT.py /home/vagrant/LibraryEnvironment/project_local_settings/dj_projects_local_settings/settings_PROJECT.py
+cp /to_copy/usep_app_settings.py /home/vagrant/LibraryEnvironment/project_local_settings/dj_projects_local_settings/usep_app_settings.py
 
 ## end create support files ##
 
@@ -96,16 +96,16 @@ cd /home/vagrant/LibraryEnvironment/projects
 git clone https://github.com/Brown-University-Library/projects-usep-app.git usep_app
 
 #replace django default project-level settings.py with 1 line file that calls 'real' settings from 'super project'
-cp /home/vagrant/to_copy/settings.py /home/vagrant/LibraryEnvironment/projects/projects/settings.py
+cp /to_copy/settings.py /home/vagrant/LibraryEnvironment/projects/projects/settings.py
 
 #replace django default project-level urls.py with file that enables usep_app
-cp /home/vagrant/to_copy/urls.py /home/vagrant/LibraryEnvironment/projects/projects/urls.py
+cp /to_copy/urls.py /home/vagrant/LibraryEnvironment/projects/projects/urls.py
 
 #replace django default wsgi.py with customized one -- not used right now; dev-server used instead
-cp /home/vagrant/to_copy/wsgi.py /home/vagrant/LibraryEnvironment/projects/projects/wsgi.py
+cp /to_copy/wsgi.py /home/vagrant/LibraryEnvironment/projects/projects/wsgi.py
 
 #add requirements.txt file to root of django project
-cp /home/vagrant/to_copy/requirements.txt /home/vagrant/LibraryEnvironment/projects/requirements.txt
+cp /to_copy/requirements.txt /home/vagrant/LibraryEnvironment/projects/requirements.txt
 
 ## end create django project ##
 
