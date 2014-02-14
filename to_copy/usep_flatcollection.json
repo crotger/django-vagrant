@@ -1,0 +1,1202 @@
+[
+  {
+    "pk": 1, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.speedmuseum.org/", 
+      "institution_code": "SAM", 
+      "region_code": "KY", 
+      "region_name": "Kentucky", 
+      "repository_code": "", 
+      "collection_name": "J. B. Speed Art Museum", 
+      "settlement_code": "Lou", 
+      "collection_description": "<P>The J. B. Speed Art Museum in Louisville houses an unusually large and homogeneous collection of some 130 Latin epitaphs and 550 fragments of epitaphs, all reportedly deriving from a small group of columbaria uncovered between 1897 and 1902 during construction of a Carmelite monastery and church of Santa Teresa beside the Corso d'Italia outside the Aurelian wall between the Porta Salaria and the Porta Pinciana in Rome. The vast majority are small tablets of the sort originally set beneath loculi, but the collection also includes eleven marble ash urns and seventeen funerary plaques of unusual shape (no doubt some mensae sepulcrales), as well as sixty-one terracotta urns, twenty-eight pieces of marble slabs, and four marble ash urns without inscriptions. All these, along with a number of molded lamps and a few figured terracotta panels (Campana reliefs), were donated to the Museum in 1929 by a prominent local benefactor, R.C. Ballard Thruston, whose agent had purchased them in Rome in 1912.</p>\r\n<p>This substantial collection, which has never been cataloged, has been inaccessible for the past few years because of renovations to the building in which it is housed, and so its contents, with the exception of two ash urns recently published by L. Gigante shortly before the inscriptions went into storage (Vergilius 40 [1994] 69-75), can only be described generally. According to George Houston, who examined the stones briefly some years ago, several were included by Chr. Hxxlsen in CIL VI. Presumably, then, others too of the inscriptions in the Speed collection, like those published by Gigante, are to be found among the stones reported by G. Gatti and others in a series of reports in Bullettino Comunale and Notizie degli Scavi as having been unearthed by construction work near the Carmelite monastery during those years. Gatti, BC ?)R 33 (1905) 156-57 provides a useful inventory of the relevant texts: CIL VI 33364-33367, 33392-33397, 33413-33420, 33398-33412, 33428, 33472, 33535, 33453, 33532, 33421-33706, 33466, and 33544.</p>\r\n", 
+      "collection_address": "P.O. Box 2600, Louisville, Kentucky, 40201", 
+      "collection_code": "KY.Lou.SAM"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "To inquire further, write to John_Bodel@brown.edu", 
+      "institution_code": "priv", 
+      "region_code": "KY", 
+      "region_name": "Kentucky", 
+      "repository_code": "", 
+      "collection_name": "Private Collection", 
+      "settlement_code": "BG", 
+      "collection_description": "A private collector in Bowling Green owns three inscribed lead sling bullets (glandes) and a bronze plate (tabula anasata) engraved with an interesting and unusual Latin text. Silvio Panciera is preparing the last for publication. ", 
+      "collection_address": "Bowling Green, Kentucky", 
+      "collection_code": "KY.BG.priv"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.dia.org/", 
+      "institution_code": "DIA", 
+      "region_code": "MI", 
+      "region_name": "Michigan", 
+      "repository_code": "", 
+      "collection_name": "Detroit Institute of Arts Museum", 
+      "settlement_code": "Detr", 
+      "collection_description": "The Detroit Institute of Arts possesses a small collection of inscribed antiquities acquired by purchase and gift mainly during this century. Among the Latin inscriptions are three funerary altars, an ash urn, and a cippus (all with sculpted reliefs), eight lamps, and a small selection of stamped Arretine and Gallic ware, of which one specimen appears to present a new variant of a well known stamp. The Greek collection includes four terracotta lamps of the Roman and Christian period with short inscriptions, a Panathenaic prize amphora (Beazley, ABV, Oxford 1956, 412 no.3), a fragment of a mosaic floor with the label \"Tigris\" from Seleukeia Peiria in Syria (Bulletin of the Detroit Institute of Arts 20, 1940, no.2), and a bronze lamp of the Christian period. ", 
+      "collection_address": "5200 Woodward Ave., Detroit, Michigan, 48202", 
+      "collection_code": "MI.Detr.DIA"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "", 
+      "institution_code": "Post", 
+      "region_code": "MI", 
+      "region_name": "Michigan", 
+      "repository_code": "", 
+      "collection_name": "The Clubhouse", 
+      "settlement_code": "BatCr", 
+      "collection_description": "The C.W. Post Company (a producer of breakfast cereal) owns a small collection of art, which includes three Latin epitaphs of the Socconii from a columbarium uncovered in 1906 in the necropolis outside the Porta Salaria at Rome (see BCAR 34 (1906) 321-25; NSc 1906, 336-38). The inscriptions were purchased by Mr. Post during the last four years of his life, 1910-1914, when he travelled widely in Europe, and are now immured in the clubhouse of the Post cereals factory in Battle Creek. ", 
+      "collection_address": "C.W. Post Company, Battle Creek, Michigan, 49016", 
+      "collection_code": "MI.BatCr.Post"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://classics.as.nyu.edu/page/home", 
+      "institution_code": "NYU", 
+      "region_code": "NY", 
+      "region_name": "New York", 
+      "repository_code": "", 
+      "collection_name": "Department of Classics, New York University", 
+      "settlement_code": "NY", 
+      "collection_description": "The Department of Classics at New York University has a collection of thirty-nine Latin epitaphs and one Greek gravestone from the city of Rome. Six of the stones once belonged to the collection of the Archaeological Museum of the Johns Hopkins University and were published by H.L. Wilson between 1909 and 1914 in AJP (see MD.Balt.JHU). Half a dozen others (including the Greek epitaph) were purchased by Professor Casper J. Kraemer of New York University for his private collection from an antiquities dealer in Rome and were edited by Donald Prakken in AJA 58 (1954) 321-22 before passing into the possession of the Department of Classics. The rest have not yet been published. In addition to these ancient texts, the collection includes two medieval inscriptions (one a brickstamp), one apparent forgery of a Latin epitaph inscribed on a genuine Roman ash urn, and what appears to be an exact copy of the fragmentary consular fasti from Teanum Sidicinum in central Italy, of which the original is preserved at the American Academy in Rome. Three stones once in the possession of the department (all of them published) are now lost. Professor Michael Peachin of New York University is currently directing a number of graduate students in preparing the entire collection for publication; the report of the unpublished texts given below is based on information generously provided by him. All of the inscriptions were evidently acquired in Rome and may be presumed to have originated there. ", 
+      "collection_address": "New York University, Silver Center, 100 Washington Square East, Room 503, New York, NY 10003", 
+      "collection_code": "NY.NY.NYU"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.nytimes.com/2008/01/18/arts/18collect.html?_r=1&ref=leonlevy", 
+      "institution_code": "LW", 
+      "region_code": "NY", 
+      "region_name": "New York", 
+      "repository_code": "", 
+      "collection_name": "The Shelby White and Leon Levy Collection", 
+      "settlement_code": "NY", 
+      "collection_description": "<p>Shelby White and Leon Levy , private collectors since 1970, have acquired a superb collection of ancient Greek and Roman antiquities , including a number of inscribed objects, mostly grave monuments. The collection has received an excellent publication in Glories of the Past: Ancient Art from the Shelby White and Leon Levy Collection, ed. by Dietrich von Bothmer (New York 1990).</p> \r\n<p>Beginning in 2008, the Shelby White and Leon Levy Collection has begun to be dispersed, with many artifacts being returned to Greece and to Italy. The present location of the inscribed objects in the collection is unknown.</p>", 
+      "collection_address": "Private Collection, New York, NY", 
+      "collection_code": "NY.NY.LW"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.brooklynmuseum.org/", 
+      "institution_code": "BM", 
+      "region_code": "NY", 
+      "region_name": "New York", 
+      "repository_code": "", 
+      "collection_name": "Brooklyn Museum", 
+      "settlement_code": "Brook", 
+      "collection_description": "The Brooklyn Museum has a large collection of antiquities, with a special emphasis on Egyptian artifacts. The majority were acquired in Egypt by Charles E. Wilbour, a journalist, lawyer, and gentleman scholar, during the last two decades of the nineteenth century and were subsequently donated to the Museum in his name by the heirs to his widow's estate in 1914. Two of the Roman tombstones were bequeathed to the museum by the widow of George N. Olcott, who assembled the large collection of Latin inscriptions at Columbia University. In 1972 Kevin Herbert published a fine study of the forty-three Greek texts and the four Latin stones in the Brooklyn Museum collection in his Greek and Latin Inscriptions in the Brooklyn Museum. ", 
+      "collection_address": "200 Eastern Parkway Brooklyn, New York 11238-6052", 
+      "collection_code": "NY.Brook.BM"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://greekandromanstudies.vassar.edu/index.html", 
+      "institution_code": "VC", 
+      "region_code": "NY", 
+      "region_name": "New York", 
+      "repository_code": "", 
+      "collection_name": "Greek and Roman Studies at Vassar College", 
+      "settlement_code": "Pough", 
+      "collection_description": "<p>Immured in a classroom in Avery Hall at Vassar College are six Latin inscriptions donated to the college by Elizabeth Hazelton Haight, a loyal alumna and Professor of Latin at Vassar for most of her life and much of this century. Miss Haight, who owned and regularly visited an apartment on the Esquiline hill in Rome, founded the Vassar Classical Museum and personally furnished it with many of its artifacts, several of which she must have purchased in Rome during the first decades of this century (see further on Haight, D. Lateiner, CW 90 [1996-97] 153-66).</p>\r\n<p>In addition to the stones in Avery Hall, the Loeb Art Center at Vassar owns the front panel of a Roman child's sarcophagus inscribed with an epitaph and a cylindrical bronze cista from Praeneste with figure labels accompanying two mythological scenes etched around the sides. Only the last has been published.</p>", 
+      "collection_address": "124 Raymond Ave., Box 733, Poughkeepsie, NY 12604\u20130733", 
+      "collection_code": "NY.Pough.VC"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://mag.rochester.edu/", 
+      "institution_code": "MAG", 
+      "region_code": "NY", 
+      "region_name": "New York", 
+      "repository_code": "", 
+      "collection_name": "Memorial Art Gallery of the University of Rochester", 
+      "settlement_code": "Roch", 
+      "collection_description": "The gallery in Rochester has a fine grave stele from the island of Salamis. ", 
+      "collection_address": "500 University Ave, Rochester NY", 
+      "collection_code": "NY.Roch.MAG"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.gardnermuseum.org/", 
+      "institution_code": "Gardn", 
+      "region_code": "MA", 
+      "region_name": "Massachusetts", 
+      "repository_code": "", 
+      "collection_name": "Isabella Stewart Gardner Museum", 
+      "settlement_code": "Bos", 
+      "collection_description": "The Isabella Stewart Gardner Museum in Boston has an extensive collection of ancient sculpture and a few Greek vases. The sculpture, which includes three Roman ash urns (one inscribed in Greek) and a marble throne with a Latin dedication, has been well-published by C. C. Vermeule, W. Cahn, and R.V. Hadley, Sculpture in the Isabella Stewart Gardner Museum (Boston 1977) (Vermeule, Gardner). ", 
+      "collection_address": "2 Palace Road, Boston, Massachusetts, 02115", 
+      "collection_code": "MA.Bos.Gardn"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://new.wellesley.edu/classical", 
+      "institution_code": "WC", 
+      "region_code": "MA", 
+      "region_name": "Massachusetts", 
+      "repository_code": "", 
+      "collection_name": "Wellesley College Classical Studies Department", 
+      "settlement_code": "Well", 
+      "collection_description": "The Departments of Greek and Latin at Wellesley College own a small collection of Roman antiquities comprising two small Latin epitaphs, an opisthographic fragment of a marble slab, two Roman bricktamps, eight amphora handles, and about a dozen fragments of Arretine ware. When, where, and how they were acquired is not known. In addition to these pieces the Departments have a sizeable collection of some seventy-five squeezes of Latin inscriptions made from originals in the Olcott collection at Columbia University and at the National Museum (delle Terme) in Rome.", 
+      "collection_address": "106 Central Street Wellesley, MA 02481", 
+      "collection_code": "MA.Well.WC"
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.worcesterart.org/", 
+      "institution_code": "WAM", 
+      "region_code": "MA", 
+      "region_name": "Massachusetts", 
+      "repository_code": "", 
+      "collection_name": "Worcester Art Museum", 
+      "settlement_code": "Wor", 
+      "collection_description": "The Worcester Art Museum has a number of mosaics, two Greek grave stelae from Antioch on the Orontes, and a marble ash urn from Rome. ", 
+      "collection_address": "55 Salisbury Street, Worcester, MA 01609", 
+      "collection_code": "MA.Wor.WAM"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://classics.sfsu.edu/", 
+      "institution_code": "SFSU", 
+      "region_code": "CA", 
+      "region_name": "California", 
+      "repository_code": "", 
+      "collection_name": "Department of Classics, San Francisco State University", 
+      "settlement_code": "SF", 
+      "collection_description": "The five fragmentary Latin inscriptions listed below were found in 1965 in the basement of a private home in Flushing, Queens, New York City, where they had been abandoned by a previous owner of the house, and were given by the new owner of the residence to Robert J. Smutny, who published them in 1969 (Mnemosyne 22: 191-94) and who subsequently donated them in 1995 to the Department of Classics of San Francisco State University , where they are preserved today. Nothing is known about the original provenance of the stones, when, or how they arrived in the United States, but the man who left them in Flushing was known as a collector of European art, and it is likely that he acquired them during one of his frequent trips to the continent and personally brought them to his home in New York. That each of the four includes the epitaphic formula in pace popular with urban Christians during the third and fourth centuries perhaps suggests that they were acquired from, and possibly originated in, the same place, most probably somewhere in the vicinity of Rome.", 
+      "collection_address": "1600 Holoway Ave., San Francisco, California, 94132", 
+      "collection_code": "CA.SF.SFSU"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.nortonsimon.org/", 
+      "institution_code": "NSM", 
+      "region_code": "CA", 
+      "region_name": "California", 
+      "repository_code": "", 
+      "collection_name": "Norton Simon Museum", 
+      "settlement_code": "Pas", 
+      "collection_description": "The Norton Simon Museum has a grave epigram from the fourth century CE.", 
+      "collection_address": "411 West Colorado Blvd., Pasadena, California, 91105", 
+      "collection_code": "CA.Pas.NSM"
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.rosicrucianegyptianmuseum.org/", 
+      "institution_code": "Egypt", 
+      "region_code": "CA", 
+      "region_name": "California", 
+      "repository_code": "", 
+      "collection_name": "The Rosicrucian Egyptian Museum & Planetarium", 
+      "settlement_code": "SJ", 
+      "collection_description": "The Egyptian Museum in San Jose has an unpublished limestone funerary bust with a short inscription. ", 
+      "collection_address": "1660 Park Avenue, San Jose, CA 95191", 
+      "collection_code": "CA.SJ.Egypt"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://classics.jhu.edu/", 
+      "institution_code": "JHU", 
+      "region_code": "MD", 
+      "region_name": "Maryland", 
+      "repository_code": "", 
+      "collection_name": "Department of Classics", 
+      "settlement_code": "Balt", 
+      "collection_description": "<p>The Johns Hopkins University has one of the oldest and richest university collections of classical artifacts in the United States. Established in 1882 with the purchase of an extensive group of Egyptian antiquities collected by Colonel Mendes Israel Cohen, the collection received its first Graeco-Roman material (several clay lamps and Etruscan vases) by gift in 1884 from Arthur L. Frothingham, Jr., who went on in the following year to found the American Journal of Archaeology.</p>\r\n<p>The epigraphic materials comprise some one hundred fifty Latin inscriptions, mainly epitaphs from Rome, which were acquired for the most part during the first decade of this century, when the large ancient necropolis outside the Aurelian Wall between the Porta Salaria and the Porta Pinciana was being unearthed in the course of development of that new region of the modern city. Most of the stones were purchased from antiquities dealers in Rome in 1906 and 1907 by Harry Langford Wilson, Professor of Roman Archaeology and Epigraphy at the university, who published his acquisitions between 1907 and 1914 in a series of articles in the American Journal of Philology: vol. 28 (1907) 450-58; 30 (1909) 61-71, 153-170; 31 (1910) 25-42, 251-64; 32 (1911) 166-87; 33 (1912) 168-85; and 35 (1914) 421-34 (nos. 122-140, on pages 427-34, were published posthumously by R.V.D. Magoffin). In these same years Magoffin included a number of inscriptions now in the Hopkins collection in an article on unedited inscriptions from Latium examined by him in Rome in 1906 and 1907 (AJA 14 [1910] 51-59), and W. Sherwood Fox published a group of lead curse tablets purchased by Wilson in Rome in 1908, of which five could be deciphered: The Johns Hopkins Tabellae Defixionum (AJP 33 Suppl., Baltimore 1912). Six of the stones published by Wilson subsequently found their way to New York University, where they are currently being prepared for a new publication (see NY.NY.NYU). Magoffin's article registers as well a few monuments in private hands in Baltimore and New York whose present whereabouts could not be ascertained (nos. 4, 9, 11, 14). For a more complete history of the collection of antiquities at Johns Hopkins, see Ellen R. Williams, The Archaeological Collection of the Johns Hopkins University (Baltimore 1984) 3-12.</p>", 
+      "collection_address": "Johns Hopkins University, Baltimore, Maryland, 21218", 
+      "collection_code": "MD.Balt.JHU"
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://thewalters.org/default.aspx", 
+      "institution_code": "WAG", 
+      "region_code": "MD", 
+      "region_name": "Maryland", 
+      "repository_code": "", 
+      "collection_name": "The Walters Art Museum", 
+      "settlement_code": "Balt", 
+      "collection_description": "The Walters Art Museum in Baltimore has several fine Attic reliefs--four funerary, one from an honorary decree--a gold magical text from Arabia, probably from the city of Bostra, and a handsome Roman ash urn. In addition, the collection contains a dozen magical amulets (Bonner, SMA nos. 63, 68, 72, 133, 170-171, 233, 251, 279, 359, 364, and 368). ", 
+      "collection_address": "600 N. Charles Street, Baltimore, MD 21201", 
+      "collection_code": "MD.Balt.WAG"
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.artbma.org/", 
+      "institution_code": "BMA", 
+      "region_code": "MD", 
+      "region_name": "Maryland", 
+      "repository_code": "", 
+      "collection_name": "Baltimore Museum of Art", 
+      "settlement_code": "Balt", 
+      "collection_description": "The Baltimore Museum has several mosaic inscriptions published in Antioch-on-the-Orontes II and III, the Excavations of 1933-1936, 1937-1939 (Princeton 1938 and 1941). There is also a single inscribed funerary stele. ", 
+      "collection_address": "10 Art Museum Drive, Baltimore, MD 21218-3898", 
+      "collection_code": "MD.Balt.BMA"
+    }
+  }, 
+  {
+    "pk": 43, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.metmuseum.org/", 
+      "institution_code": "MMA", 
+      "region_code": "NY", 
+      "region_name": "New York", 
+      "repository_code": "", 
+      "collection_name": "The Metropolitan Museum of Art", 
+      "settlement_code": "NY", 
+      "collection_description": "<p>The Metropolitan Museum in New York has a large and distinguished collection of Greek and Roman sculpture and vases, bronzes, gems, jewelry, terracottas, and pottery, to name only the most prominent media. It has been assembled since the establishment of the museum in 1870, mostly by purchase, under the direction of successive heads of the Greek and Roman collections, Luigi Palma di Cesnola, Edward Robinson, Gisela M. A. Richter, Christine Alexander, Dietrich von Bothmer, and Carlos A. Picon. The inscriptions occur mostly on grave monuments, but the Roman collection includes a number of notable bronzes.</p>\r\n<p>The Attic black figure vases have been published in the CVA and the red-figured ones by L. F. Hall and G. M. A. Richter, Red-figured Athenian Vases in the Metropolitan Museum of Art (New Haven 1936). For a discussion and illustration of many of the signatures, see B. Cohen, \"The Literate Potter,\" MetMusJ 26 (1991) 49-95. B. F. Cook, Inscribed Hadra Vases, The Metropolitan Museum of Art Papers no. 12 (1966), published an important group of incised and painted funerary vases from ancient cemeteries near Alexandria. The Greek and Roman material up to ca. 1953 was published by G. M. A. Richter in a series of volumes devoted to bronzes, sculpture, and gems. They are listed in the bibliography. The magical amulets, most inscribed with unintelligible Greek letters, have been published by Bonner in SMA (nos. 8, 35, 38, 42, 59-61, 71, 102, 152, 154, 167, 191, 197, 199, 211, 229, 231, 252, 262, 266, and 356).</p>\r\n<p>The huge Cypriote holdings of Luigi Palma di Cesnola came early as a separate collection. Acquired by the Museum from Cesnola between 1874 and 1876, they include many inscriptions not only in Greek but in Cypriote and Phoenician, as well as a few in Latin. Cesnola himself published much of the collection in his Cyprus: Its Ancient Cities, Tombs, and Temples (London 1877) and oversaw the publication of an atlas in three folio volumes entitled A Descriptive Atlas of the Cesnola Collection of Cypriote Antiquities in the Metropolitan Museum of Art, New York, vol. I (Boston 1885), vols II-III (New York 1894, 1903). J. L. Myres' handbook of the collection (see bibliography) includes extensive publication of the inscriptions on pages 299-326 and 521-557.</p> ", 
+      "collection_address": "1000 Fifth Avenue, New York, NY 10028-0198", 
+      "collection_code": "NY.NY.MMA"
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.newarkmuseum.org/Default.aspx", 
+      "institution_code": "NM", 
+      "region_code": "NJ", 
+      "region_name": "New Jersey", 
+      "repository_code": "", 
+      "collection_name": "The Newark Museum", 
+      "settlement_code": "New", 
+      "collection_description": "The Newark Museum owns a small collection of Roman antiquities, which include a handsome marble tombstone, three lamps stamped with the makers' names, and three inscribed pieces of pottery tableware. ", 
+      "collection_address": "P.O. Box 540, Newark, New Jersey, 07101", 
+      "collection_code": "NJ.New.NM"
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "https://www.samuseum.org/", 
+      "institution_code": "SAMA", 
+      "region_code": "TX", 
+      "region_name": "Texas", 
+      "repository_code": "", 
+      "collection_name": "The San Antonio Museum of Art", 
+      "settlement_code": "SA", 
+      "collection_description": "The San Antonio Museum of Art houses a sizeable collection of Greek vase painting, as well as Greek and Roman funerary monuments. It includes the Grave Stele of Kallistrate from early-fifth century BCE Athens and an Augustan Funerary Relief for Three Former Slaves. ", 
+      "collection_address": "200 West Jones Avenue, San Antonio, Texas 78215", 
+      "collection_code": "TX.SA.SAMA"
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.menil.org/index.php", 
+      "institution_code": "Men", 
+      "region_code": "TX", 
+      "region_name": "Texas", 
+      "repository_code": "", 
+      "collection_name": "The Menil Collection", 
+      "settlement_code": "Hous", 
+      "collection_description": "The Menil Collection belongs to collectors John and Dominque de Menil. Its antique holdings focus on the pre-Classical period, stretching to Asia Minor, and include a Greek grave stele and a marble epitaph found in Tunisia.", 
+      "collection_address": "1533 Sul Ross Houston, Texas 77006", 
+      "collection_code": "TX.Hous.Men"
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.utexas.edu/cola/depts/classics/", 
+      "institution_code": "UT", 
+      "region_code": "TX", 
+      "region_name": "Texas", 
+      "repository_code": "", 
+      "collection_name": "Department of Classics in The College of Liberal Arts at UT Austin", 
+      "settlement_code": "Aust", 
+      "collection_description": "Department of Classics in The College of Liberal Arts at UT Austin houses an honorific marble slab from Asia Minor.", 
+      "collection_address": "WAG 123, Mailcode C3400, Austin, TX 78712-0308", 
+      "collection_code": "TX.Aust.UT"
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.nelson-atkins.org/", 
+      "institution_code": "NAMA", 
+      "region_code": "MO", 
+      "region_name": "Missouri", 
+      "repository_code": "", 
+      "collection_name": "The Nelson-Atkins Museum of Art", 
+      "settlement_code": "KC", 
+      "collection_description": "The Nelson-Atkins Museum of Art has some fine pieces of ancient sculpture and two inscribed grave monuments from Attica, a marble lekythos and a stele. ", 
+      "collection_address": "4525 Oak Street, Kansas City, Missouri, 64111", 
+      "collection_code": "MO.KC.NAMA"
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.slam.org/", 
+      "institution_code": "CAM", 
+      "region_code": "MO", 
+      "region_name": "Missouri", 
+      "repository_code": "", 
+      "collection_name": "Saint Louis Art Museum", 
+      "settlement_code": "StLouis", 
+      "collection_description": "The St. Louis Art Museum possesses a very fine grave relief almost certainly from Attica and a number of excellent vases. The only published account of the collection seems to be by A. Furtwngler, \"Neue Denkmler antiker Kunst III. Antiken in den Museen von Amerika,\" SBAW 1905 241-245. ", 
+      "collection_address": "1 Fine Arts Drive, Forest Park, St. Louis, Missouri, 63110", 
+      "collection_code": "MO.StLouis.CAM"
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.grinnell.edu/", 
+      "institution_code": "GC", 
+      "region_code": "IA", 
+      "region_name": "Iowa", 
+      "repository_code": "", 
+      "collection_name": "Grinnell College", 
+      "settlement_code": "Grin", 
+      "collection_description": "The Department of Classical and East Asian Languages at Grinnell College has a small collection of ancient artifacts acquired from two principal sources: purchases in Italy during the first thirty years of this century registered under the name S(pencer) and purchases and donations from Egypt, Cyprus, and Rome in the 1940s and 1950s associated with the name Rehling. The inscribed objects include a dozen texts on stone, forty-five pieces of instrumentum (mostly amphora handles from Monte Testaccio in Rome) and a dipinto sherd with a long and elaborate text painted in Greek (Spencer 688) which is said to have been given to a Grinnell professor by a Frenchman sometime during the last thirty years of the nineteenth century. All of the Latin texts were purchased in Rome and may be presumed to have originated there. ", 
+      "collection_address": "P.O. Box 805, Grinnell, IA 50112", 
+      "collection_code": "IA.Grin.GC"
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.bowdoin.edu/art-museum/", 
+      "institution_code": "BC", 
+      "region_code": "ME", 
+      "region_name": "Maine", 
+      "repository_code": "", 
+      "collection_name": "Bowdoin College Museum of Art", 
+      "settlement_code": "Bruns", 
+      "collection_description": "The Walker Art Building at Bowdoin College houses a diverse collection of more than a thousand classical artifacts, among which are eight inscriptions on stone (four Greek and four Latin), seven stamps and signatures on gold, bronze, brick and other terracotta, and two inscribed gemstones. All the inscribed objects were donated to Bowdoin College by bequest of the noted collector of ancient art Edward P. Warren (1860-1928), an American expatriate resident for most of his life in Oxford, England and one of the major benefactors of the Boston Museum of Fine Arts (see O. Burdett and E.H. Goddard, Edward Perry Warren: The Biography of a Connoisseur [London 1941]). The entire collection is described by K. Herbert in his descriptive catalog of 1964, Ancient Art in Bowdoin College (Cambridge, Mass.). ", 
+      "collection_address": "9400 College Station, Brunswick ME 04011", 
+      "collection_code": "ME.Bruns.BC"
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://ncartmuseum.org/", 
+      "institution_code": "NCMA", 
+      "region_code": "NC", 
+      "region_name": "North Carolina", 
+      "repository_code": "", 
+      "collection_name": "The North Carolina Museum of Art", 
+      "settlement_code": "Ral", 
+      "collection_description": "The North Carolina Museum of Art has a small collection of ancient art, including three handsome marble funerary monuments, two Greek and one Latin. ", 
+      "collection_address": "2110 Blue Ridge Road, Raleigh, NC 27607", 
+      "collection_code": "NC.Ral.NCMA"
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.indiana.edu/~iuam/iuam_home.php", 
+      "institution_code": "IUAM", 
+      "region_code": "IN", 
+      "region_name": "Indiana", 
+      "repository_code": "", 
+      "collection_name": "The Indiana University Art Museum", 
+      "settlement_code": "Bloom", 
+      "collection_description": "The Indiana University Art Museum acquired in 1963 the collection of ancient art assembled by V. G. Simkhovitch. This is a distinguished collection that includes much sculpture and bronze work as well as many fine vases. It has received in 1988 a fine publication by W. Rudolph and A. Calinescu: Ancient Art from the V. G. Simkhovitch Collection (Bloomington) (AASC). ", 
+      "collection_address": "1133 East 7th St., Bloomington, IN 47405-7509", 
+      "collection_code": "IN.Bloom.IUAM"
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.ben-hur.com/aboutus/contactus.html", 
+      "institution_code": "LWSR", 
+      "region_code": "IN", 
+      "region_name": "Indiana", 
+      "repository_code": "", 
+      "collection_name": "General Lew Wallace Study & Museum", 
+      "settlement_code": "Crawf", 
+      "collection_description": "General Lew Wallace acquired during his diplomatic service an inscription found in the catacomb of San Callisto at Rome. It remains in his study in Crawfordsville. ", 
+      "collection_address": "200 Wallace Avenue  P.O. Box 662, Crawfordsville, IN 47933", 
+      "collection_code": "IN.Crawf.LWSR"
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.glencairnmuseum.org/", 
+      "institution_code": "GM", 
+      "region_code": "PA", 
+      "region_name": "Pennsylvania", 
+      "repository_code": "", 
+      "collection_name": "Glencairn Museum", 
+      "settlement_code": "BrynAth", 
+      "collection_description": "This small museum has one inscribed Greek funerary monument almost certainly from Attica. ", 
+      "collection_address": "1001 Cathedral Road, Bryn Athyn, Pennsylvania, 19009", 
+      "collection_code": "PA.BrynAth.GM"
+    }
+  }, 
+  {
+    "pk": 32, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.highlandshistorical.org/", 
+      "institution_code": "Highl", 
+      "region_code": "PA", 
+      "region_name": "Pennsylvania", 
+      "repository_code": "", 
+      "collection_name": "The Highlands Mansion and Gardens", 
+      "settlement_code": "FW", 
+      "collection_description": "The Highlands , originally a colonial farm, then a private estate of the Sinkler family, now a public monument of the State of Pennsylvania, has a marble funerary relief of an eques singularis from Moesia, presumably collected by Miss C. Sinkler in the course of her European travels during the early years of this century. It is now immured in one of the walls of the manor. ", 
+      "collection_address": "7001 Sheaff Lane, Fort Washington, PA 19034", 
+      "collection_code": "PA.FW.Highl"
+    }
+  }, 
+  {
+    "pk": 33, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.readingpublicmuseum.org/", 
+      "institution_code": "RM", 
+      "region_code": "PA", 
+      "region_name": "Pennsylvania", 
+      "repository_code": "", 
+      "collection_name": "The Reading Public Museum", 
+      "settlement_code": "Read", 
+      "collection_description": "The Reading Museum , formerly the Oberlaender Museum, has a fine grave monument from the Kerameikos cemetery in Athens. This stone was the gift of the Greek government to M. Oberlaender for his generous support of the excavation. ", 
+      "collection_address": "500 Museum Road, Reading, Pennsylvania, 19611", 
+      "collection_code": "PA.Read.RM"
+    }
+  }, 
+  {
+    "pk": 34, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.clevelandart.org/", 
+      "institution_code": "CMA", 
+      "region_code": "OH", 
+      "region_name": "Ohio", 
+      "repository_code": "", 
+      "collection_name": "The Cleveland Museum of Art", 
+      "settlement_code": "Clev", 
+      "collection_description": "The Cleveland Museum has a small, excellent collection of Greek vases, two Egyptian textiles (inv. nos. 75.6, 83.136) which have single late Greek or early Byzantine labels woven into the design, and two grave monuments. See on the holdings Arielle Kozlov, Classical Art: A Brief Guide to the Collection, The Cleveland Museum of Art (Cleveland 1989). ", 
+      "collection_address": "11150 East Boulevard, Cleveland, Ohio 44106", 
+      "collection_code": "OH.Clev.CMA"
+    }
+  }, 
+  {
+    "pk": 35, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.daytonartinstitute.org/", 
+      "institution_code": "DAI", 
+      "region_code": "OH", 
+      "region_name": "Ohio", 
+      "repository_code": "", 
+      "collection_name": "The Dayton Art Institute", 
+      "settlement_code": "Dayt", 
+      "collection_description": " The Dayton Art Institute has one inscribed grave monument from Istanbul. ", 
+      "collection_address": "456 Belmonte Park North, Dayton, Ohio 4540", 
+      "collection_code": "OH.Dayt.DAI"
+    }
+  }, 
+  {
+    "pk": 36, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.toledomuseum.org/", 
+      "institution_code": "TMA", 
+      "region_code": "OH", 
+      "region_name": "Ohio", 
+      "repository_code": "", 
+      "collection_name": "The Toledo Museum of Art", 
+      "settlement_code": "Tol", 
+      "collection_description": "The Toledo Museum of Art has a bronze Etruscan hand mirror from the fourth century BCE.", 
+      "collection_address": "2445 Monroe Street, Toledo, OH", 
+      "collection_code": "OH.Tol.TMA"
+    }
+  }, 
+  {
+    "pk": 37, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www2.ku.edu/~wilcox/exhibits/inscript/", 
+      "institution_code": "UK", 
+      "region_code": "KS", 
+      "region_name": "Kansas", 
+      "repository_code": "", 
+      "collection_name": "The Wilcox Classical Museum", 
+      "settlement_code": "Lawr", 
+      "collection_description": "In 1909 the Department of Latin and Greek of the University of Kansas came into a sizable collection of Roman antiquities sold by the Italian government in order to raise money for the survivors of the earthquake at Messina and purchased for the University by Ralph V.D. Magoffin. Among the objects were nine inscriptions on stone, eight in Latin and one in Greek, and a fragment of brick bearing a Roman brickstamp. One of the inscriptions had been included by Chr. Hxxlsen in CIL VI among the tituli sepulcrales of Rome; another was published by Magoffin in AJA 14 (1910) 53. All of the texts were subsequently edited by L. R. Lind in AJA 59 (1955) 159-62. Although the provenance of only two of the pieces--those published by Hxxlsen and Magoffin--is reported (in one case, with conflicting testimony), all the inscriptions may be presumed to have been acquired, and probably to have originated, in Rome. In all likelihood most of the columbarium tablets came from the vast cemetery outside the Porta Salaria being uncovered for the first time around the turn of the century. ", 
+      "collection_address": "Lippincott Hall 103, 1410 Jayhawk Blvd, University of Kansas, Lawrence, KS 66045-7095", 
+      "collection_code": "KS.Lawr.UK"
+    }
+  }, 
+  {
+    "pk": 38, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "", 
+      "institution_code": "XC", 
+      "region_code": "CT", 
+      "region_name": "Connecticut", 
+      "repository_code": "", 
+      "collection_name": "Xerox Corporation", 
+      "settlement_code": "Stamf", 
+      "collection_description": " The Xerox Headquarters houses a gold phylactery of the fourth century BCE. ", 
+      "collection_address": "800 Long Ridge Road, Stamford, CT, 06902", 
+      "collection_code": "CT.Stamf.XC"
+    }
+  }, 
+  {
+    "pk": 39, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.artsmia.org/", 
+      "institution_code": "MIA", 
+      "region_code": "MN", 
+      "region_name": "Minnesota", 
+      "repository_code": "", 
+      "collection_name": "Minneapolis Institute of Arts", 
+      "settlement_code": "Minn", 
+      "collection_description": "The Minneapolis Institute of Arts has a small collection of ancient art, which includes three inscribed pieces: a grave stele and a bronze ladle inscribed in Greek and a Roman ash urn with a Latin epitaph. ", 
+      "collection_address": "2400 3rd Ave. South, Minneapolis, Minnesota, 55404", 
+      "collection_code": "MN.Minn.MIA"
+    }
+  }, 
+  {
+    "pk": 40, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.rollins.edu/library/index.html", 
+      "institution_code": "RC", 
+      "region_code": "FL", 
+      "region_name": "Florida", 
+      "repository_code": "", 
+      "collection_name": "Olin Library", 
+      "settlement_code": "WiPark", 
+      "collection_description": "The Rollins College has a marble grave relief from Antioch given by the widow of Reverend P. O. Powers, who acquired it during service there around the year 1860. ", 
+      "collection_address": "Rollins College, 1000 Holt Ave., Winter Park, FL 32789", 
+      "collection_code": "FL.WiPark.RC"
+    }
+  }, 
+  {
+    "pk": 41, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://honolulumuseum.org/", 
+      "institution_code": "AA", 
+      "region_code": "HI", 
+      "region_name": "Hawaii", 
+      "repository_code": "", 
+      "collection_name": "Honolulu Museum of Art", 
+      "settlement_code": "Honol", 
+      "collection_description": "The Honolulu Museum of Art has one grave monument inscribed in Greek that is most probably from Attica. ", 
+      "collection_address": "900 S. Beretania, Honolulu HI 96814", 
+      "collection_code": "HI.Honol.AA"
+    }
+  }, 
+  {
+    "pk": 42, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.seattleartmuseum.org/", 
+      "institution_code": "AM", 
+      "region_code": "WA", 
+      "region_name": "Washington", 
+      "repository_code": "", 
+      "collection_name": "The Seattle Art Museum", 
+      "settlement_code": "Seat", 
+      "collection_description": "The Seattle Art Museum holds a Greek grave marker from the fourth century BCE.", 
+      "collection_address": "1300 First Avenue, Seattle, WA 98101", 
+      "collection_code": "WA.Seat.AM"
+    }
+  }, 
+  {
+    "pk": 44, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.mfa.org/", 
+      "institution_code": "MFA", 
+      "region_code": "MA", 
+      "region_name": "Massachusetts", 
+      "repository_code": "", 
+      "collection_name": "Museum of Fine Arts", 
+      "settlement_code": "Bos", 
+      "collection_description": "<p>The Museum of Fine Arts in Boston has an extensive and distinguished collection of antiquities, among which are more than two hundred artifacts inscribed in Greek and Latin. The reported inventory comprises eighty-three texts on marble and stone; sixty-five precious and semi-precious gems; nine texts inscribed on gold, six on silver, twenty-three on bronze and twenty-three on other metals; two mosaics; two terracottas; and one wood object--not to mention numerous Greek vases bearing painters' signatures and labels, dozens of pieces of Roman terra sigillata with makers' stamps, and two incised magical amulets (Bonner, SMA nos. 73, 234).</p>\r\n<p>Many of these pieces derive from the fine collection of Greek sculpture acquired for the museum at the end of the nineteenth century through the activities of its agents Edward P. Warren and John Marshall; the inscriptions are mainly on grave reliefs and votives of various kinds. In addition, the Archaeological Institute of America in 1884 presented to the museum its collection of finds from Assos, among which are many inscriptions; these have all been published by R. Merkelbach in Die Inschriften von Assos (Bonn 1976). Individual pieces have from time to time been published in the Journal of the Museum of Fine Arts, Boston and elsewhere, and most of the major works are included in one or another of a series of catalogues compiled by Cornelius Vermeule with the help of various collaborators. The entire collection is currently being prepared for publication by Annewies van den Hoek and Sarolta Tak\u00e1cs. Since the unedited inscriptions have not been reported and the published ones only partially so, the survey below cannot claim to be complete, but it is hoped that none of the major pieces in the collection have been overlooked.</p>", 
+      "collection_address": "465 Huntington Ave., Boston, Massachusetts, 02115", 
+      "collection_code": "MA.Bos.MFA"
+    }
+  }, 
+  {
+    "pk": 45, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.getty.edu/museum/", 
+      "institution_code": "JPGM", 
+      "region_code": "CA", 
+      "region_name": "California", 
+      "repository_code": "", 
+      "collection_name": "The J. Paul Getty Museum", 
+      "settlement_code": "Malibu", 
+      "collection_description": "The Getty Museum in Malibu has within a few years assembled one of the most distinguished and extensive collections of ancient art in the United States. The inscribed materials include sculpture, bronzes, architectural elements, vases, pottery, gems, and much else. Since 1974 many individual pieces have received treatment in articles in the J. Paul Getty Museum Journal, and in the late 1980s and 1990s there have begun to appear a series of fine volumes, Catalogues of the Collections, The J. Paul Getty Museum, that will eventually provide a complete publication of the holdings. Those most useful for inscriptions are: G. Koch, Roman Funerary Sculpture (Malibu 1988), J. Spier, Ancient Gems and Finger Rings (Malibu 1992); and M. Pfrommer, Metalwork from the Hellenized East (Malibu 1993). ", 
+      "collection_address": "17985 Pacific Coast Highway, Pacific Palisades, California 90272", 
+      "collection_code": "CA.Malibu.JPGM"
+    }
+  }, 
+  {
+    "pk": 46, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.hearstcastle.org/", 
+      "institution_code": "HHM", 
+      "region_code": "CA", 
+      "region_name": "California", 
+      "repository_code": "", 
+      "collection_name": "Hearst Castle", 
+      "settlement_code": "SS", 
+      "collection_description": "The Hearst San Simeon State Historical Monument , a public facility of California's vast Department of Parks and Recreation, houses two handsome Roman sarcophagi which were once part of the private collection of the publishing magnate and now belong to the State of California. One of the sarcophagi, which seems not to have been published, was purchased at auction in 1921; the origin of the other is unknown. ", 
+      "collection_address": "750 Hearst Castle Road, San Simeon, CA 93452-9741", 
+      "collection_code": "CA.SS.HHM"
+    }
+  }, 
+  {
+    "pk": 178, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.si.edu", 
+      "institution_code": "SM", 
+      "region_code": "DC", 
+      "region_name": "DC", 
+      "repository_code": "", 
+      "collection_name": "The Smithsonian Museum", 
+      "settlement_code": "", 
+      "collection_description": "The Smithsonian Museum (formally the Smithsonian Museum of National History) in the nation's capital has a small collection of Arretine ware, well published by Howard Comfort in AJA 42 (1938) 506-511, which includes three stamps from the workshop of P. Cornelius. All the pieces are part of a large collection of miscellaneous Gallo-Roman antiquities purchased in 1904 from Thomas Wilson and reported to have come from Italy.", 
+      "collection_address": "PO Box 37012  SI Building, Room 153, MRC 010  Washington, D.C. 20013-7012", 
+      "collection_code": "DC.SM"
+    }
+  }, 
+  {
+    "pk": 177, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.doaks.org", 
+      "institution_code": "DO", 
+      "region_code": "DC", 
+      "region_name": "DC", 
+      "repository_code": "", 
+      "collection_name": "Dumbarton Oaks Research Library and Collection ", 
+      "settlement_code": "", 
+      "collection_description": "The Greek and Roman antiquities at Dumbarton Oaks were acquired by Mr. and Mrs. Robert Woods Bliss. The collection was published in 1956 by Gisela M. A. Richter, Catalogue of Greek and Roman Antiquities in the Dumbarton Oaks Collection (Cambridge 1956). There is also an extensive collection of late Classical and Byzantine Greek objects, some of which need to be listed in the present checklist. These have been handsomely published in three volumes entitled Catalogue of the Byzantine and Early Medieval Antiquities in the Dumbarton Oaks Collection. Volume 1 (Metalwork, Ceramics, Glass, Glyptics, Painting) was published in 1962, volume 2 (Jewelry, Enamels, and Art of the Migration Period) in 1965, both by Marvin C. Ross. Volume 3 by Kurt Weitzmann dealt with Ivories and Steatites and appeared in 1972.", 
+      "collection_address": "1703 32nd Street, NW Washington, DC 20007", 
+      "collection_code": "DC.DO"
+    }
+  }, 
+  {
+    "pk": 179, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://arts.muohio.edu/art-museum/", 
+      "institution_code": "MU", 
+      "region_code": "OH", 
+      "region_name": "Ohio", 
+      "repository_code": "AM", 
+      "collection_name": "The Miami University Art Museum", 
+      "settlement_code": "Ox", 
+      "collection_description": "The Art Museum of the University of Miami in Ohio has a small collection of five Latin inscriptions: two marble columbarium tablets from outside the Porta Salaria in Rome, two terracotta lamps, and a section of a lead water pipe. It is likely that all of them came from Rome. ", 
+      "collection_address": "801 South Patterson Avenue, Oxford, OH 45056", 
+      "collection_code": "OH.Ox.MU.AM"
+    }
+  }, 
+  {
+    "pk": 180, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://artmuseum.princeton.edu/", 
+      "institution_code": "PU", 
+      "region_code": "NJ", 
+      "region_name": "New Jersey", 
+      "repository_code": "AM", 
+      "collection_name": "The Princeton University Art Museum", 
+      "settlement_code": "Princ", 
+      "collection_description": "The Art Museum at Princeton University has a distinguished collection of antiquities, including many vases and marble sculptures, built up mostly by gifts, beginning in 1900. The university was involved in the excavations at Antioch on the Orontes and a number of inscriptions on stone came to Princeton as a result; of these several fragmentary pieces are currently inaccessible in remote storage. In addition, there are a number of mosaics with short inscriptions, all published in R. Stillwell, Antioch-on-the-Orontes II The Excavations of 1933-1936 (Princeton 1938). Forty pieces of sculpture have been published by B. Ridgway et al. in Greek Sculpture in the Art Museum, Princeton University (Princeton 1994) and various other inscribed objects have been published from time to time in the Princeton Art Museum Record. ", 
+      "collection_address": "McCormick Hall, Princeton, NJ 08544", 
+      "collection_code": "NJ.Princ.PU.AM"
+    }
+  }, 
+  {
+    "pk": 181, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.nasher.duke.edu/contact.php", 
+      "institution_code": "DU", 
+      "region_code": "NC", 
+      "region_name": "North Carolina", 
+      "repository_code": "Art", 
+      "collection_name": "The Nasher Museum of Art", 
+      "settlement_code": "Dur", 
+      "collection_description": "Duke University at Durham North Carolina possesses a small collection of inscribed objects located in two places, the University Art Museum (Art) and the Perkins Library (Perk). In the collection of the Art Museum are an ephebic stele from Egypt and three Attic grave markers. The Perkins Library has two unpublished lead tablets from Egypt, an unpublished silver plaque with a magical text inscribed in Greek, and a Roman military diploma. ", 
+      "collection_address": "2001 Campus Drive, Durham, NC 27705", 
+      "collection_code": "NC.Dur.DU.Art"
+    }
+  }, 
+  {
+    "pk": 182, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://library.columbia.edu/indiv/rbml.html", 
+      "institution_code": "CU", 
+      "region_code": "NY", 
+      "region_name": "New York", 
+      "repository_code": "Butl", 
+      "collection_name": "Butler Library Rare Book Room", 
+      "settlement_code": "NY", 
+      "collection_description": "<p>The Rare Book and Manuscript Room of the Butler Library of Columbia University houses a large collection of Latin inscriptions on stone and lead and a few Greek texts. Latin inscriptions on bronze andlead and stamped terracotta (bricks, tiles, Arretine ware) are held by the Art Properties Department of the university elsewhere on campus. Both groups of inscriptions, along with an extensive collection of ancient coins (some 3,9000 specimens), were bequeathed to the university in 1912 by George N. Olcott, at the time of his death Associate Professor of Latin at Columbia. The bulk of the collection was purchased by Olcott in Rome, beginning in the years 1896 to 1898, when he was a student and Fellow at the newly founded American School of Classical Studies (subsequently joined with the American Academy in Rome), partly with his own funds for his private collection and partly, later, on behalf of Columbia University. Olcott's premature death from pneumonia at the age of forty-two thus cut short not only his ambitious magnum opus--the Thesaurus Linguae Latinae Epigraphicae of which he had published a first fascicle ('A-Aser') in 1904 (a second fascicle, 'Asturica - Avillianus', was published in 1935-36 before the project was abandoned)--but a productive and active career as a collector of Roman antiquities. The collection he left comprises mainly epitaphs of the first two centuries from the cemeteries outside the Porta Salaria and along the modern Via Ostiense and a large selection of Arretine ware and stamped amphora handles from Monte Testaccio; there are very few public documents. It thus fairly reflects Olcott's aim of compiling a teaching collection to illustrate ancient Roman private life.</p>\r\n<p>Many of the inscribed objects collected by Olcott have been dispersed. At the time of his death in 1912 Olcott was on sabbatical leave in Rome and had with him at his house there (the \"villetta Olcott\") a considerable part of his collection of stamped Arretine ware, which his widow subsequently donated to the American Academy in Rome (MAAR 7 [1929] 179). At the same time, several of the inscriptions on stone in his personal collection were put up for sale in New York. Even during his lifetime Olcott had not been averse to selling pieces from his private collection, and individual pieces seem to have found their way by private sale to Wellesley College in Massachussets and into private hands. Part of his collection (Roman lamps, glass, bronzes, and Arretine ware) was purchased in 1916 by the University of Illinois at Urbana-Champaign and was transferred to the World Heritage Museum in Urbana. (See further about Olcott and his collections, I.E.M. Edlund, The Iron Age and Etruscan Vases in the Olcott Collection at Columbia University, New York [Philadelphia 1980] 6-8).</p>\r\n<p>Many of the Latin inscriptions on stone were published by Chr. Hxxlsen in his supplement to CIL VI in 1902 and by Olcott himself in an abbreviated series of articles in the American Journal of Archaeology: vol. 3 (1899) 229-39; 10 (1906) 154-58; 12 (1908) 39-46. Nine others were edited in 1988 by J-J Aubert, J.R. Lenz, J. Roth, and J.A. Sheridan in ZPE 73: 91-97. In 1948 H. Comfort published an Arretine ware plate from Olcott's bequest bearing a potter's stamp and graffito (AJA 52 [1948] 321-22), and many of the stamps on amphorae handles and Arretine ware are identified by Olcott in a handwritten catalogue that can be consulted in the Rare Book and Manuscript Room of Butler Library. Almost all the inscriptions were acquired in Rome. In most cases (and in the list that follows except where otherwise indicated), they are known or may be presumed to have originated there as well.</p>", 
+      "collection_address": "535 West 114th St., New York, NY 10027", 
+      "collection_code": "NY.NY.CU.Butl"
+    }
+  }, 
+  {
+    "pk": 183, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.princeton.edu/classics/", 
+      "institution_code": "PU", 
+      "region_code": "NJ", 
+      "region_name": "New Jersey", 
+      "repository_code": "Class", 
+      "collection_name": "Department of Classics", 
+      "settlement_code": "Princ", 
+      "collection_description": "The Department of Classics at Princeton University owns a small collection of thirteen inscriptions on stone (four Greek and nine Latin), of which eleven are published. Most of the stones are stored on the top of bookshelves around a departmental seminar room in East Pyne Hall, along with a dozen plaster casts of Greek inscriptions and two casts taken from the archaic cippus beneath the Lapis Niger in the Roman Forum, which were a gift of the Italian government in 1935 (a cast of all five sides of the monument is at Harvard: see MA.Camb.HU.Sack). One of the Latin stones is currently displayed on a window sill in the Graphic Arts room of Firestone Library. In addition to the stones and casts mentioned above, the seminar room in East Pyne houses an excellent collection of some three hundred Greek and Latin squeezes (about half in each language), taken mostly from stones in Rome and Athens. These were once part of the university's (now dismantled) Epigraphical Museum, which was founded in the 1930s by Professor William Kelly Prentice (on whom see Briggs 509-10). In 1951 Prentice revised an earlier survey of all the stones owned by Princeton University in an unpublished Catalogue of the Epigraphical Collection in the University Library, which can be consulted in typescript in the Rare Books room in Firestone Library. ", 
+      "collection_address": "Princeton University, 141 East Pyne Princeton, NJ 08544", 
+      "collection_code": "NJ.Princ.PU.Class"
+    }
+  }, 
+  {
+    "pk": 184, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://hoodmuseum.dartmouth.edu/", 
+      "institution_code": "DC", 
+      "region_code": "NH", 
+      "region_name": "New Hampshire", 
+      "repository_code": "HMA", 
+      "collection_name": "The Hood Museum of Art", 
+      "settlement_code": "Han", 
+      "collection_description": "The Hood Museum of Art at Dartmouth College has a small collection of antiquities including a red-figure kylix by the Epidromos Painter, a Panathenaic Amphora by the Berlin Painter, and an inscribed sarcophagus fragment from Italy of the early Antonine period. ", 
+      "collection_address": "Dartmouth College, Hanover, NH 03755", 
+      "collection_code": "NH.Han.DC.HMA"
+    }
+  }, 
+  {
+    "pk": 185, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://hearstmuseum.berkeley.edu/index.php", 
+      "institution_code": "UC", 
+      "region_code": "CA", 
+      "region_name": "California", 
+      "repository_code": "HMA", 
+      "collection_name": "Phoebe A. Hearst Museum of Anthropology", 
+      "settlement_code": "Berk", 
+      "collection_description": "Formerly the R.H. Lowie Museum, the Phoebe A. Hearst Museum of Anthropology in Berkeley has an extensive collection of ancient Greek vases and some sculpture. It also includes sixteen Latin epitaphs on stone, two Greek gravestones, an epigram painted in Greek on plaster, a marble statuette with a Latin inscription, and one lead water pipe, one fragment of brick, and two Roman lamps stamped with Roman names. All but one have been published. Most of the pieces were purchased for the Museum in Rome by Dr. Alfred Emerson on behalf of Mrs. Hearst during a two or three year period around the turn of the century and were shipped to Berkeley in 1902. Three others (CA.Berk.UC.HMA.#97.3.1-3), once the personal property of Professor A.E. Gordon, were given to him around 1945 by a colleague at the University of California, Berkeley who reportedly purchased them (in one case, at least, sometime after 1913) from antiquities dealers in Rome. These pieces are presumed still to be in the Hearst Museum at Berkeley. Where not otherwise indicated, all the objects seem to have been acquired in Rome and may be presumed to have originated there.\r\n\r\nThe Greek collection received a handsome publication in 1982 by J. Nickel, A. Harlow, and A. Stewart entitled Poseidon's Realm, Ancient Greek Art from the Lowie Museum of Anthropology, Berkeley (Crocker Art Museum, Sacramento). The inscriptions have been edited separately by R. J. Smutny, Greek and Latin Inscriptions at Berkeley, California Classical Studies 2 (Berkeley 1966). The summary recorded in the Checklist is based exclusively on these publications and on two records of objects bearing inscriptions and mythological scenes supplied by the American office of the Lexicon Iconographicum Mythologiae Classicae.", 
+      "collection_address": "University of California Berkeley, California, 94720", 
+      "collection_code": "CA.Berk.UC.HMA"
+    }
+  }, 
+  {
+    "pk": 186, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.lsa.umich.edu/kelsey", 
+      "institution_code": "UM", 
+      "region_code": "MI", 
+      "region_name": "Michigan", 
+      "repository_code": "KM", 
+      "collection_name": "The Kelsey Museum of Archaeology", 
+      "settlement_code": "AA", 
+      "collection_description": "<p>The Kelsey Museum of Archaeology in Ann Arbor houses the largest collection of Greek and Latin inscriptions in the United States. Though enhanced over the years by miscellaneous acquisitions from various sources, the collection was essentially built upon four foundations: the University of Michigan excavations at Terenouthis in Egypt in 1935 and three major purchases in Italy around the turn of the century by knowledgable agents of the university whose goal was to assemble a teaching collection for the training of American classicists. In 1899, Walter Dennison, then Instructor of Latin at The University of Michigan, secured on behalf of the university the purchase of 276 Latin inscriptions from the extensive collection of antiquities owned by Giuseppe De Criscio, the parish priest of Pozzuoli in Campania. Three subsequent purchases, from De Criscio himself in 1905 and 1909 and from his heirs in 1922, added another 32 pieces from the same region. In 1900 and 1901, Francis W. Kelsey, who had included a small fragment of stamped brick from Capri among the original purchases he made in Italy in 1893 to found the university's archaeological collections, acquired 477 examples of urban brickstamps from workmen and dealers in Rome. Seven years later (in 1908 and 1909), through six separate purchases at Rome, Dennison obtained another 100 epitaphs of urban provenience, most of which originated in tombs along the Via Appia or from the necropolis north of the Porta Salaria that had recently been uncovered during the laying out of a new residential zone of the modern city. Finally, in 1935 the University of Michigan excavations at the cemetery of Terenouthis added 194 funerary stelae, many inscribed in Greek, to the collection.</p>\r\n\r\n<p>Most of the inscribed objects in the De Criscio collection had already been published by Mommsen in CIL X in 1883; many others were subsequently edited in cursory fashion by Dennison in the American Journal of Archaeology 2 (1898) 373-402 and more thoroughly by J.H. D'Arms in American Journal of Archaeology 77 (1973) 151-67 and by D'Arms and others in Puteoli IX-X (1985-86) 41-78. J. Bodel published the brickstamps acquired by Kelsey and others in 1983 (Roman Brick Stamps in the Kelsey Museum, Ann Arbor). Dennison's purchases in Rome in 1908 and 1909 were first edited seventy years later by the participants in a graduate seminar in Latin epigraphy led by Mario Torelli in 1978 and published by M.W. Baldwin and M. Torelli in 1979: Latin Inscriptions in the Kelsey Museum: The Dennison Collection (Ann Arbor). F. A. Hooper published the grave stelae from Terenouthis in 1961 (Funerary Stelae from Kom Abou Billou, Ann Arbor). Steven L. Tuck is currently preparing a comprehensive edition (excluding brickstamps) of the extensive holdings of Latin inscriptions.</p>\r\n\r\n<p>In addition to the pieces itemized below, the Kelsey Museum collections include forty unpublished Greek inscriptions from Seleukeia (inv. nos. 35748-35785, 35854-35856), three from Antioch (inv.nos. 93880, 93882-93883), and one inscribed architectural fragment from Corinth (inv. no. 2371); other than inventory numbers, we have no specifics about these pieces and so they have not been registered individually. In the interest of saving space, most of the more than 500 examples of urban brickstamps recently edited by Bodel have likewise been omitted from the list: a complete concordance of their identifications can be found in Bodel, RBSKM 75-84 (Concordance II); supplements and corrections to that list are registered below at the end of the list of inscriptions of Rome.</p>\r\n\r\n<p>Because of the large size of the collection, it has seemed best, in contrast to the practice followed elsewhere in this volume, to arrange the material first according to geographical region and only secondarily by language (Greek first, followed by Latin) under the appropriate geographical heading. As usual, the unpublished inscriptions (twenty four in number, all Latin) are gathered together at the head of the list.</p>", 
+      "collection_address": "434 South State Street, Ann Arbor, MI  48109-1390", 
+      "collection_code": "MI.AA.UM.KM"
+    }
+  }, 
+  {
+    "pk": 187, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.risdmuseum.org/default.aspx", 
+      "institution_code": "RISD", 
+      "region_code": "RI", 
+      "region_name": "Rhode Island", 
+      "repository_code": "MA", 
+      "collection_name": "The RISD Museum of Art", 
+      "settlement_code": "Prov", 
+      "collection_description": "The Art Museum of the Rhode Island School of Design has a distinguished collection of ancient Greek vases, some with painted vase inscriptions. All have been published in Corpus Vasorum Antiquorum USA fascicule 1 (Cambridge, Mass. 1933) or in a supplementary catalogue of the collection by A. H. Ashmead and K. M. Phillips, Jr., Catalogue of the Classical Collection: Classical Vases (Providence 1976). It also has an interesting rescript of the emperor Hadrian, two bronzes inscribed in Greek, a Roman marble ash urn, and a fragment of an elaborately decorated marble slab. ", 
+      "collection_address": "224 Benefit Street, Providence, RI 02903", 
+      "collection_code": "RI.Prov.RISD.MA"
+    }
+  }, 
+  {
+    "pk": 188, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://maa.missouri.edu/default.htm", 
+      "institution_code": "UM", 
+      "region_code": "MO", 
+      "region_name": "Missouri", 
+      "repository_code": "MAA", 
+      "collection_name": "Museum of Art and Archaeology", 
+      "settlement_code": "Col", 
+      "collection_description": "The Museum of Art and Archaeology at the University of Missouri at Columbia houses a large collection of antiquities, among which are five inscriptions on stone, a half dozen stamps or signatures on metal objects, and a selection of some fifty fragments of stamped clay products (mainly amphora handles) illustrative of Roman daily life. In addition to the items listed below, the classical holdings include a few sling bullets and lead weights inscribed in Greek; a number of stamped amphora handles from Tel Anafa in Israel, all published by S. Herbert, in Tel Anafa I, i (Ann Arbor 1994) 189-231; a bimetallic medallion of the Roman emperors Trebonianus Gallus and Volusian (aa. 251-253), published by A. Benjamin, Muse 2 (1968) 21-24; a gold medallion of the emperor Constantius II (ca. 340), published by J.C. Biers, Muse 23/4 (1989-90) 87-88, fig. 4 (ph); and a series of clay molds for Roman bronze folles of the emperor Galerius minted between the years 305 and 311 at Cyzicus (MO.Col.UM.MAA.L.70.331), Antioch (70.332), and Alexandria (eight varieties: 70.333-340). ", 
+      "collection_address": "1 Pickard Hall, Columbia, MO 65211-1420", 
+      "collection_code": "MO.Col.UM.MAA"
+    }
+  }, 
+  {
+    "pk": 189, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://carlos.emory.edu/", 
+      "institution_code": "EU", 
+      "region_code": "GA", 
+      "region_name": "Georga", 
+      "repository_code": "MCM", 
+      "collection_name": "Michael C. Carlos Museum", 
+      "settlement_code": "Atl", 
+      "collection_description": "The Michael C. Carlos Museum at Emory University has a small collection of antiquities, among which are a Greek marble votive relief of the fourth century BC ?) a fragment of a Latin honorific inscription from Tunisia, and, on loan from William C. and Carol W. Thibadeau, a well-preserved Roman ash urn. Only the last has been published.", 
+      "collection_address": "Emory University, 571 South Kilgo Street, Atlanta, Georgia, 30322", 
+      "collection_code": "GA.Atl.EU.MCM"
+    }
+  }, 
+  {
+    "pk": 190, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.smith.edu/classics/vanburen/", 
+      "institution_code": "SC", 
+      "region_code": "MA", 
+      "region_name": "Massachusetts", 
+      "repository_code": "NL", 
+      "collection_name": "The Van Buren Antiquities Collection", 
+      "settlement_code": "North", 
+      "collection_description": "<p>The Department of Classical Languages and Literatures at Smith College owns a small collection of six Latin inscriptions, which were acquired around the turn of the century by A. W. Van Buren from antiquities dealers in Rome and were subsequently purchased from Van Buren, along with a handwritten catalogue of the collection, in 1925. Three of the stones collected by Van Buren were published by Hxxlsen in CIL VI among the sepulchral inscriptions of Rome.</p>\r\n\r\n<p>The Smith College Museum of Art has a small marble ash urn from Rome and a stamped moldmade terracotta lamp on display.</p>", 
+      "collection_address": "Department of Classical Languages and Literatures, Dewey Hall II Smith College Northampton, MA 01063", 
+      "collection_code": "MA.North.SC.NL"
+    }
+  }, 
+  {
+    "pk": 191, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://library.duke.edu/about/perkins.html", 
+      "institution_code": "DU", 
+      "region_code": "NC", 
+      "region_name": "North Carolina", 
+      "repository_code": "Perk", 
+      "collection_name": "The William R. Perkins Library", 
+      "settlement_code": "Dur", 
+      "collection_description": "Duke University at Durham North Carolina possesses a small collection of inscribed objects located in two places, the University Art Museum (Art) and the Perkins Library (Perk). In the collection of the Art Museum are an ephebic stele from Egypt and three Attic grave markers. The Perkins Library has two unpublished lead tablets from Egypt, an unpublished silver plaque with a magical text inscribed in Greek, and a Roman military diploma. ", 
+      "collection_address": "Duke University, 411 Chapel Drive Durham, NC 27708", 
+      "collection_code": "NC.Dur.DU.Perk"
+    }
+  }, 
+  {
+    "pk": 192, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.harvardartmuseums.org/art/arthur-m-sackler-museum", 
+      "institution_code": "HU", 
+      "region_code": "MA", 
+      "region_name": "Massachusetts", 
+      "repository_code": "Sack", 
+      "collection_name": "The Arthur M. Sackler Museum", 
+      "settlement_code": "Camb", 
+      "collection_description": "<p>The collection of Greek and Latin inscriptions housed in the Sackler Museum at Harvard University comprises two distinct groups of objects: Greek texts on works of art owned by the Harvard University Art Museums and Latin texts illustrating private life and religion acquired, and in some cases still owned, by the Department of the Classics. Both groups have been enhanced by various acquisitions over the years, but each owes its essential character to a primary benefactor and source.</p>\r\n\r\n<p>In 1905 and 1906 Clifford H. Moore, a Professor of Latin at Harvard, purchased in Rome thirty-one Latin inscriptions for the Department of the Classics. Of these almost half had been included by Chr. Hxxlsen in CIL VI among the tituli sepulcrales of Rome. Moore republished these, along with twenty-four unedited Latin texts (including five stones then recently donated to the department by Professor Minton Warren and a young Dr. Arthur Stanley Pease), in Harvard Studies in Classical Philology 20 (1909) 1-14. This Classical Collection, which included as well a number of plaster casts and a sizeable assortment of instrumentum (mainly brickstamps) donated to the Department in 1905 by Dr. George Pfeiffer in memory of his wife, Rachael Hartwell, was housed for many years in a classroom in Sever Hall at Harvard College before being transferred at first, in the 1950s, to the basement of Widener Library, then subsequently, in the 1960s, to a storage corridor off the Smyth Classical Library in Widener, and finally, in the summer of 1988, to the Department of Ancient Art in the Sackler Museum, where the stones are kept today.</p>\r\n\r\n<p>Fifty years after Moore published his small collection of Latin inscriptions from Rome, Harvard's epigraphic holdings were greatly augmented when the Fogg Museum in 1960 received by bequest from the estate of David M. Robinson about half of his extensive ancient Greek collection. His coins went to the American Numismatic Society and the rest of the collection was purchased by the University of Mississippi (see MS.Univ.UM.UM). The 410 objects that came to Harvard were exhibited from May to September of 1961 with a descriptive catalog, The David Moore Robinson Bequest of Classical Art and Antiquities (Cambridge, Mass. 1961).</p>\r\n\r\n<p>In addition to these two main acquisitions and their original publications, eleven of Moore's inscriptions were newly edited in 1992 in the American Journal of Archaeology (96: 71-100), and individual pieces accruing to both collections over the years have been separately published. Two ostraca from Egypt with painted Greek inscriptions were edited by E. J. Goodspeed, AJP 25 (1904) 45-58 at nos. 11 and 15 (= Preisigke, Sammelbuch nos. 4362 and 4366). Mason Hammond in 1964 published three Latin inscriptions purchased by the Department of the Classics in 1961 for the Alice Corinne McDaniel Collection of Roman antiquities, of which two are now on display in a glass case in the Smyth Classical Library (HSCP 68: 74-97). Three years later N. L. Hirschland and M. Hammond edited thirty-two stamped pottery fragments from Carthage (fourteen texts in Punic, eight in Greek, three in Latin and three unidentified), six Roman brickstamps, two stamped Greek loom weights and one stamped Greek amphora handle in the McDaniel Collection (HSCP 72 [1967] 369-82). Herbert Bloch elucidated the Augustan era epitaph of a doctor of Caecilia Metella, once part of the private collection of Henry Lanford Wilson of Johns Hopkins University (see MD.Balt.JHU) in HSCP 86 (1982) 141-50, and J. Bodel in AJA 96 (1992) 95-100 republished an opisthographic funerary relief from Liguria long believed to be lost and an unedited bipartite columbarium tablet from Rome. The inscribed sculpture at Harvard has recently been published by C. C. Vermeule and A. Brauer, Stone Sculptures: the Greek, Roman, and Etruscan Collections of the Harvard University Museums (Cambridge, Mass. 1990) (Vermeule -Brauer).</p>\r\n\r\n<p>In addition to eight moldmade terracotta lamps in the Robinson collection, the Classical Collection includes thirty-seven lamps with makers' stamps (not yet catalogued and therefore not included in the list below) and a full-scale plaster cast of the inscribed cippus found beneath the Lapis Niger in the Roman Forum--one of two or three in the United States (another, incomplete, is at Princeton University; a third, reported by E.H. Warmington, Remains of Old Latin IV [Cambridge, Mass. 1940] 245, at Johns Hopkins University, could not be verified. According to Warmington three similar casts can be found in England, at the British Museum, the Asmolean Museum, Oxford, and the Museum of Archaeology, Cambridge). At present Harvard's cast is stored in a corridor off the Smyth Library.</p>\r\n", 
+      "collection_address": "Harvard Art Museums, 32 Quincy Street, Cambridge, MA 02138", 
+      "collection_code": "MA.Camb.HU.Sack"
+    }
+  }, 
+  {
+    "pk": 193, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.snomnh.ou.edu/", 
+      "institution_code": "UO", 
+      "region_code": "OK", 
+      "region_name": "Oklahoma", 
+      "repository_code": "SM", 
+      "collection_name": "Sam Noble Oklahoma Museum of Natural History", 
+      "settlement_code": "Norm", 
+      "collection_description": "The Sam Noble Oklahoma Museum of Natural History in Norman has a small but significant collection of classical antiquities, established in 1939-40 and built up principally over the next fifteen years, which includes many inscribed artifacts. Among them are some eighty archaic and classical Greek, Cypriote, and South Italian vases; three Etruscan bronzes; a dozen terracotta figurines; some twenty moldmade lamps, fifteen glass vessels, more than 150 ancient coins, and an opisthographic Roman gravestone bearing two epitaphs of comparable date. Most of the collection has been well published by A.J. Heisserer and others in Heisserer, ed., Classical Antiquities: The Collection of the Stovall Museum of Science and History, the University of Oklahoma (Norman 1986). ", 
+      "collection_address": "2401 Chautauqua Ave., Norman, OK 73072-7029", 
+      "collection_code": "OK.Norm.UO.SM"
+    }
+  }, 
+  {
+    "pk": 194, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://huc.edu/museums/cn/", 
+      "institution_code": "HUC", 
+      "region_code": "OH", 
+      "region_name": "Ohio", 
+      "repository_code": "SM", 
+      "collection_name": "Skirball Museum", 
+      "settlement_code": "Cincinnati", 
+      "collection_description": "http://huc.edu/museums/cn/", 
+      "collection_address": "Hebrew Union College, 3101 Clifton Ave., Cincinnati, Ohio, 45220", 
+      "collection_code": "OH.Cincinnati.HUC.SM"
+    }
+  }, 
+  {
+    "pk": 195, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://spurlock.illinois.edu/", 
+      "institution_code": "UI", 
+      "region_code": "IL", 
+      "region_name": "Illinois", 
+      "repository_code": "SM", 
+      "collection_name": "The Spurlock Museum", 
+      "settlement_code": "Urb", 
+      "collection_description": "The World Heritage Museum in Urbana has a small collection of inscribed antiquities, including two ancient Greek artifacts, three Latin epitaphs, two fragments of stamped lead waterpipes, one bronze dedicatory plaque, and a clayware jug with the maker's stamp. Only one text, a Greek juror's token, has been published.", 
+      "collection_address": "University of Illinois, 600 South Gregory Street, Urbana, Illinois, 61801", 
+      "collection_code": "IL.Urb.UI.SM"
+    }
+  }, 
+  {
+    "pk": 196, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://sniteartmuseum.nd.edu/", 
+      "institution_code": "UND", 
+      "region_code": "IN", 
+      "region_name": "Indiana", 
+      "repository_code": "SMA", 
+      "collection_name": "Snite Museum of Art", 
+      "settlement_code": "ND", 
+      "collection_description": "The Snite Museum of Art in Notre Dame has a handsome Roman marble epistyle with beautiful monumental lettering naming a Roman kinght. A homonym is found in a list of names at Herculaneum, and the style of the lettering and character of the inscription are compatible with a Campanian location and a first century date, but the origin of the piece is unknown.", 
+      "collection_address": "University of Notre Dame, Notre Dame, Indiana, 46556", 
+      "collection_code": "IN.ND.UND.SMA"
+    }
+  }, 
+  {
+    "pk": 197, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.penn.museum/", 
+      "institution_code": "UP", 
+      "region_code": "PA", 
+      "region_name": "Pennsylvania", 
+      "repository_code": "UM", 
+      "collection_name": "University of Pennsylvania Museum of Archaeology and Anthropology", 
+      "settlement_code": "Phil", 
+      "collection_description": "The University Museum of the Universtiy of Pennsylvania has a large collection of ancient artifacts, including a number of Greek inscriptions on stone and many vases and sherds with texts painted in Greek. The Latin inscriptions on stone, though few in number, include a handsome series of inscribed marble amphorae deposited as dedicatory offerings at the sanctuary of Diana Nemorensis at Lake Nemi south of Rome. A rather more extensive collection of instrumentum inscribed in Latin has not been investigated and cannot be itemized below. It comprises forty-seven amphora handles and pottery fragments from Monte Testaccio in Rome (and one from elsewhere), nine stamped architectural terracottas, three Roman brickstamps, one stamped pottery bowl, one pottery sherd from Orvieto, and a bronze strigil. ", 
+      "collection_address": "3260 South Street, Philadelphia, PA 19104", 
+      "collection_code": "PA.Phil.UP.UM"
+    }
+  }, 
+  {
+    "pk": 198, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://museum.olemiss.edu/The University Museums at 'Ole Miss' have a large number of inscriptions from the David M. Robinson Memorial Collection of Greek and Roman Antiquities; other large holdings f", 
+      "institution_code": "UM", 
+      "region_code": "MS", 
+      "region_name": "Mississippi", 
+      "repository_code": "UM", 
+      "collection_name": "The University of Mississippi Museum", 
+      "settlement_code": "Univ", 
+      "collection_description": "The University Museums at 'Ole Miss' have a large number of inscriptions from the David M. Robinson Memorial Collection of Greek and Roman Antiquities; other large holdings from Robinson's extensive personal collection wound up at Harvard University (see MA.Camb.HU.Sack). In addition there are many other uninscribed objects and many vases at Mississippi, some with painted inscriptions. Two of the Latin inscriptions in the Robinson collection have been published by R. A. Moysey, in PP 40 (1985) 387-92. ", 
+      "collection_address": "University Avenue and 5th St., Oxford, MS  38655", 
+      "collection_code": "MS.Univ.UM.UM"
+    }
+  }, 
+  {
+    "pk": 199, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.spurlock.illinois.edu/info/facilities.html", 
+      "institution_code": "UI", 
+      "region_code": "IL", 
+      "region_name": "Illinois", 
+      "repository_code": "WHM", 
+      "collection_name": "The World Heritage Museum Guild Educational Resource Center", 
+      "settlement_code": "Urb", 
+      "collection_description": "The World Heritage Museum Guild Educational Resource Center provides a range of educational resources and contains one inscription.", 
+      "collection_address": "University of Illinois, 600 South Gregory Street, Urbana, Illinois, 61801", 
+      "collection_code": "IL.Urb.UI.WHM"
+    }
+  }, 
+  {
+    "pk": 200, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.lib.unc.edu/wilson/", 
+      "institution_code": "UNC", 
+      "region_code": "NC", 
+      "region_name": "North Carolina", 
+      "repository_code": "WL", 
+      "collection_name": "The Wilson Library", 
+      "settlement_code": "CH", 
+      "collection_description": "The University of North Carolina at Chapel Hill owns two Latin gravestones and a lead tablet with a Greek inscription in Sicilian dialect. All three are housed in the Rare Book Room of the Wilson Library.", 
+      "collection_address": "Campus Box #3948, University of North Carolina at Chapel Hill Chapel Hill, NC 27515-8890", 
+      "collection_code": "NC.CH.UNC.WL"
+    }
+  }, 
+  {
+    "pk": 201, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://artgallery.yale.edu/", 
+      "institution_code": "YU", 
+      "region_code": "CT", 
+      "region_name": "Connecticut", 
+      "repository_code": "YAM", 
+      "collection_name": "Yale University Art Gallery", 
+      "settlement_code": "NH", 
+      "collection_description": "The Yale University Art Gallery has one inscribed grave monument probably from Attica and two from Kula in Lydia.", 
+      "collection_address": "Yale University, New Haven, Connecticut, 06520", 
+      "collection_code": "CT.NH.YU.YAM"
+    }
+  }, 
+  {
+    "pk": 202, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://fine-arts.org/", 
+      "institution_code": "MFA", 
+      "region_code": "FL", 
+      "region_name": "Florida", 
+      "repository_code": "", 
+      "collection_name": "Museum of Fine Arts", 
+      "settlement_code": "StPete", 
+      "collection_description": "The Museum of Fine Arts in St. Petersburg possesses a mosaic from Antioch published by D. Levi, Antioch Mosaic Pavements (Princeton 1947) and one stone grave monument.", 
+      "collection_address": "255 Beach Dr. N.E., St.Petersburg, Florida, 33701", 
+      "collection_code": "FL.StPete.MFA"
+    }
+  }, 
+  {
+    "pk": 203, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.hammondcastle.org/common/index.php?com=HAMM&div=AA&nav=AA&page=A91", 
+      "institution_code": "HCM", 
+      "region_code": "MA", 
+      "region_name": "Massachusetts", 
+      "repository_code": "", 
+      "collection_name": "Hammond Castle Museum", 
+      "settlement_code": "Glouc", 
+      "collection_description": "Located in the Magnolia section of Gloucester, Hammond Castle Museum , once the home of John Hays Hammond, Jr., an electrical engineer born to wealth and further enriched by numerous inventions (he held more than 435 patents, including one for the guided missle), houses a remarkably eclectic collection of classical and European architecture. Hammond himself designed and built the castle between 1926 and 1930 with stonework and architectural elements collected by him personally from little known places in Europe, particularly Italy, Spain, and France. Among the antiquities built into the walls and variously displayed throughout the castle are some sixty Latin inscriptions, mostly epitaphs and funerary altars, originating for the most part, it seems, from central Italy. In one letter from Rome Hammond mentioned buying a collection of early Christian tombstones for 600 lire in \"a dirty little cellar under the Capitoline\". Only three of the stones have been published. Allen Ward of the University of Connecticut has photographed all the stones and is planning to edit the collection; the following inventory is based on a set of handwritten transcriptions of the texts generously provided by him.", 
+      "collection_address": "Hammond Castle Museum, 80 Hesperus Avenue, Gloucester, Massachusetts, 01930", 
+      "collection_code": "MA.Glouc.HCM"
+    }
+  }, 
+  {
+    "pk": 204, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "", 
+      "institution_code": "priv", 
+      "region_code": "NY", 
+      "region_name": "New York", 
+      "repository_code": "", 
+      "collection_name": "", 
+      "settlement_code": "NY", 
+      "collection_description": "\r\nProfessor Emil Polak of New York City owns a fragment of Roman brick stamped with the legend of the legio XIIII Gemina Martia Victrix reportedly (and plausibly) found at Carnuntum in Austria, where the legion was stationed after 114.  (To inquire further, write to John_Bodel@brown.edu)", 
+      "collection_address": "NY, NY", 
+      "collection_code": "NY.NY.priv"
+    }
+  }, 
+  {
+    "pk": 205, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "", 
+      "institution_code": "priv", 
+      "region_code": "MA", 
+      "region_name": "Massachusetts", 
+      "repository_code": "", 
+      "collection_name": "Private Collection", 
+      "settlement_code": "Camb", 
+      "collection_description": "Mr. Rodney G. Dennis, Curator of Manuscripts in the Houghton Library of Harvard University, in 1974 purchased for his private collection from a London antiquities dealer an unpublished Latin epitaph from the estate of Captain Raymond Johnes . Mason Hammond of the Department of the Classics of Harvard University published the text a few years later.", 
+      "collection_address": "Cambridge, MA", 
+      "collection_code": "MA.Camb.priv"
+    }
+  }, 
+  {
+    "pk": 206, 
+    "model": "usep_app.flatcollection", 
+    "fields": {
+      "collection_url": "http://www.vmfa.state.va.us/default.aspx", 
+      "institution_code": "MFA", 
+      "region_code": "VA", 
+      "region_name": "Virginia", 
+      "repository_code": "", 
+      "collection_name": "Virginia Museum of Fine Arts", 
+      "settlement_code": "Rich", 
+      "collection_description": "", 
+      "collection_address": "200 N. Boulevard., Richmond, Virginia, 23220", 
+      "collection_code": "VA.Rich.MFA"
+    }
+  }
+]
