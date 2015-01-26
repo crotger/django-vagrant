@@ -110,6 +110,7 @@ INSTALLED_APPS = (
     #u'rome_app',
     #u'software_app',
     u'usep_app',
+    #'markdown_deux',
 )
 
 # A sample logging configuration. The only tangible logging

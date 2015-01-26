@@ -11,6 +11,9 @@ urlpatterns = patterns('',
 
     url( r'^usep/',  include('usep_app.urls_app') ),
   	url( r'^admin/',  include(admin.site.urls) ),
+    
+    # Uncomment for TTWR project
+    # url( r'^rome/',  include('rome_app.urls_app') ),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

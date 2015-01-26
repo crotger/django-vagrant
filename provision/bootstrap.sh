@@ -59,6 +59,9 @@ apt-get -y install libxml2-dev libxslt-dev
 #Create a virtualenv and ACTIVATE it
 mkdir /home/vagrant/LibraryEnvironment/envs
 virtualenv -p python2.6 --prompt=[env_prj] /home/vagrant/LibraryEnvironment/envs/env_projects
+
+#Add extra variables for TTWR. TEMPORARY SOLUTION!!! (Carlos, 1/26/15)
+cat /to_copy/extra_settings.sh >> /home/vagrant/LibraryEnvironment/envs/env_projects/bin/activate
 source /home/vagrant/LibraryEnvironment/envs/env_projects/bin/activate
 
 #install necessary python packages
