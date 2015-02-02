@@ -68,8 +68,7 @@ source /home/vagrant/LibraryEnvironment/envs/env_projects/bin/activate
 pip install -r /to_copy/requirements.txt
 
 #install bdrxml for Rome
-git clone https://github.com/Brown-University-Library/bdrxml.git ~/bdrxml
-python ~/bdrxml/setup.py install
+git clone https://github.com/Brown-University-Library/bdrxml.git /home/vagrant/bdrxml
 
 #copy usep.pth to env_projects->site-packages to automatically get settings on the env_projects PYTHONPATH
 cp /to_copy/usep.pth /home/vagrant/LibraryEnvironment/envs/env_projects/lib/python2.6/site-packages/usep.pth
